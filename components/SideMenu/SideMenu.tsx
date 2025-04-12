@@ -9,8 +9,8 @@ import { SideMenuProps } from './types';
 
 export const SideMenu: React.FC<SideMenuProps> = ({
   links = [],
-  btnAriaOpen,
-  btnAriaClose,
+  // btnAriaOpen,
+  // btnAriaClose,
   className = '',
 }) => {
   const [isOpen, setOpen] = useState(false);
@@ -20,30 +20,30 @@ export const SideMenu: React.FC<SideMenuProps> = ({
 
   return (
     <div className={` flex items-center smOnly:hidden ${className}`}>
-      <MenuButton
+      {/* <MenuButton
         btnAriaClose={btnAriaClose}
         btnAriaOpen={btnAriaOpen}
         isOpen={isOpen}
         onClick={() => setOpen(prev => !prev)}
-      />
+      /> */}
 
-      <CSSTransition
+      {/* <CSSTransition
         in={isOpen}
         nodeRef={nodeRef}
         timeout={300}
         unmountOnExit
         classNames={'fade'}
-      >
-        <div ref={nodeRef}>
-          {homePage && (
-            <NavLinks
-              links={links}
-              onClick={() => setOpen(false)}
-              className="ml-6"
-            />
-          )}
-        </div>
-      </CSSTransition>
+      > */}
+      <div ref={nodeRef}>
+        {homePage && (
+          <NavLinks
+            links={links}
+            onClick={() => setOpen(false)}
+            className="ml-6"
+          />
+        )}
+      </div>
+      {/* </CSSTransition> */}
     </div>
   );
 };

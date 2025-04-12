@@ -10,9 +10,15 @@ export const Banner: React.FC<BannerProps> = ({
   },
   image_description,
 }) => (
-  <div className="h-[50vw] w-full sm:h-[240px] md:h-[384px] xl:mx-auto xl:h-[450px] xl:w-[1220px]">
+  <div>
     <Image
-      className="h-full w-full object-cover object-center"
+      className="h-[50vw] h-full w-full w-full object-cover object-center sm:h-[240px] md:h-[384px] xl:mx-auto xl:h-[450px] xl:w-[1220px] xl:rounded-[100px]"
+      style={{
+        maskImage:
+          'radial-gradient(circle at center, rgb(204, 23, 23) 70%, rgba(193, 11, 11, 0) 94%)',
+        WebkitMaskImage:
+          'radial-gradient(circle at center, rgb(204, 23, 23) 70%, rgba(193, 11, 11, 0) 94%)',
+      }}
       width={1220}
       height={610}
       priority

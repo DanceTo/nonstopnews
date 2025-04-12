@@ -37,7 +37,7 @@ export const Header: React.FC<HeaderProps> = ({ data }) => {
   });
 
   return (
-    <header className="z-10 w-full bg-body pb-8 pt-9 xl:pb-10 smOnly:fixed smOnly:top-0">
+    <header className="z-10 w-full bg-body py-4 md:pb-8 md:pt-9 xl:pb-10 smOnly:fixed smOnly:top-0">
       <Logo
         logoLeftText={logoLeftText}
         logoRightText={logoRightText}
