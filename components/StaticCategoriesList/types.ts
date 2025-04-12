@@ -1,5 +1,6 @@
 import { Locale } from '@/i18n.config';
 import { StaticCategoryDataInfo, CategoryDataInfo } from '@/types/categories';
+import { NewsItem } from '../NewsCatalog/NewsCatalog';
 
 export interface CategoriesListProps {
   categories: CategoryDataInfo[];
@@ -14,6 +15,8 @@ export interface StaticCategoriesListProps {
     tip: string;
   };
   className?: string;
+  news: NewsItem[];
+  // onClick: React.Dispatch<React.SetStateAction<string>>;
 }
 
 export type CategorySlug = {

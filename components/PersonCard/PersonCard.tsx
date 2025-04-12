@@ -10,6 +10,7 @@ export const PersonCard: React.FC<PersonCardProps> = ({ traitor, lang }) => {
 
   const [showModal, setShowModal] = useState(false);
   const onToggleShowModal = () => setShowModal(prev => !prev);
+
   return (
     <>
       <button

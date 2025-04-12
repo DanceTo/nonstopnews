@@ -18,11 +18,12 @@ export interface StaticCategoryCardProps {
 
 type CategoryStaticDataInfo = {
   id: string;
-  attributes: {
-    title: string;
-    sequence_number: number;
-    image: Image;
-  };
+
+  title: string;
+  // sequence_number: number;
+  image_description: string;
+  url: string;
+  filter: string;
 };
 
 type CategoryDynamicDataInfo = {

@@ -11,21 +11,20 @@ export interface CategoriesDataType {
 
 export type CategoryDataInfo = {
   id: string;
-  attributes: {
-    title: string;
-    slug: string;
-    sequence_number: number;
-    image: Image;
-  };
+  title: string;
+
+  url: string;
+  image_description: string;
+  filter: string;
 };
 
 export type StaticCategoryDataInfo = {
   id: string;
-  attributes: {
-    title: string;
-    sequence_number: number;
-    image: Image;
-  };
+  title: string;
+
+  url: string;
+  image_description: string;
+  filter: string;
 };
 
 export interface SlugsDataType {

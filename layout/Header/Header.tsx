@@ -31,9 +31,9 @@ export const Header: React.FC<HeaderProps> = ({ data }) => {
   const lang = useParams().lang as Locale;
   const isHomePage = checkPageName(pathname, HOME);
   const isTraitorPage = checkPageName(pathname, TRAITORS);
-  const logoStyles = classNames({
-    'mb-[-49px] md:mb-[-40px] xl:mb-[-30px]': isHomePage,
-    'mb-[-49px] md:mb-[-40px] xl:mb-[-45px]': isTraitorPage,
+  const logoStyles = classNames('mb-[-49px] md:mb-[-40px] xl:mb-[-30px]', {
+    // 'mb-[-49px] md:mb-[-40px] xl:mb-[-30px]': isHomePage,
+    // 'mb-[-49px] md:mb-[-40px] xl:mb-[-45px]': isTraitorPage,
   });
 
   return (

@@ -18,7 +18,7 @@ export const PageLink: React.FC<PageLinkProps> = ({
   const params = useParams();
   return (
     <Link
-      href={isAnchor ? '#' : `${params.lang}${TRAITORS}`}
+      href={isAnchor ? '#' : `/${params.lang}${TRAITORS}`}
       className={linkClasses}
       onClick={onClick}
     >

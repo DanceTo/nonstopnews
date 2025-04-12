@@ -23,8 +23,8 @@
         "name": "На Главную",
         "href": "/"
       },
-      "logoLeftText": "левый",
-      "logoRightText": "берег",
+      "logoLeftText": "left",
+      "logoRightText": "bank",
       "forTraitorBtnText": "Предатели",
       "languageButtonText": "UA"
     },
@@ -85,80 +85,38 @@
       "categories": [
         {
           "id": "1",
-          "attributes": {
-            "title": "Херсон",
-            "sequence_number": 1,
-            "image": {
-              "image_description": "Херсон",
-              "photo": {
-                "data": {
-                  "attributes": {
-                    "url": "/images/catalog_news/kherson.jpeg"
-                  }
-                }
-              }
-            }
-          }
+          "title": "Херсон",
+          "url": "/images/catalog_news/kherson.jpeg",
+          "image_description": "Херсон",
+          "filter": "kherson"
         },
         {
           "id": "2",
-          "attributes": {
-            "title": "Запорожье",
-            "sequence_number": 2,
-            "image": {
-              "image_description": "Запорожье",
-              "photo": {
-                "data": {
-                  "attributes": { "url": "/images/catalog_news/kherson.jpeg" }
-                }
-              }
-            }
-          }
+          "title": "Запорожье",
+          "url": "/images/catalog_news/kherson.jpeg",
+          "image_description": "Запорожье",
+          "filter": "zaporizhzhya"
         },
         {
           "id": "3",
-          "attributes": {
-            "title": "АР Крым",
-            "sequence_number": 3,
-            "image": {
-              "image_description": "АР Крым",
-              "photo": {
-                "data": {
-                  "attributes": { "url": "/images/catalog_news/kherson.jpeg" }
-                }
-              }
-            }
-          }
+          "title": "АР Крым",
+          "url": "/images/catalog_news/kherson.jpeg",
+          "image_description": "АР Крым",
+          "filter": "crimea"
         },
         {
           "id": "4",
-          "attributes": {
-            "title": "Донецк",
-            "sequence_number": 4,
-            "image": {
-              "image_description": "Донецк",
-              "photo": {
-                "data": {
-                  "attributes": { "url": "/images/catalog_news/donetsk.jpeg" }
-                }
-              }
-            }
-          }
+          "title": "Донецк",
+          "url": "/images/catalog_news/donetsk.jpeg",
+          "image_description": "Донецк",
+          "filter": "donetsk"
         },
         {
           "id": "5",
-          "attributes": {
-            "title": "Луганск",
-            "sequence_number": 5,
-            "image": {
-              "image_description": "Луганськ",
-              "photo": {
-                "data": {
-                  "attributes": { "url": "/images/catalog_news/luhansk.jpeg" }
-                }
-              }
-            }
-          }
+          "title": "Луганск",
+          "url": "/images/catalog_news/luhansk.jpeg",
+          "image_description": "Луганск",
+          "filter": "luhansk"
         }
       ],
       "serviceError": {

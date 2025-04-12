@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { FC } from 'react';
 
-type NewsItem = {
+export type NewsItem = {
   title: string;
   image: string;
   category: string;
@@ -13,9 +13,10 @@ type NewsItem = {
   likes: number;
   slug: string;
   description?: string;
+  longText: string;
 };
 
-interface NewsCatalogProps {
+export interface NewsCatalogProps {
   news: NewsItem[];
 }
 
@@ -80,7 +81,7 @@ const NewsCatalog: FC<NewsCatalogProps> = ({ news }) => {
               </div>
               {item.description && (
                 <p className="text-sm italic text-zinc-600">
-                  {truncateText(item.description, 30)}
+                  {truncateText(item.description, 20)}
                 </p>
               )}
             </div>

@@ -14,13 +14,13 @@ export type HomeProps = {
 export default async function Home({ params }: HomeProps) {
   const { lang } = await params;
 
-  const { homepage } = await getDictionary(lang);
+  const { homepage, news } = await getDictionary(lang);
   const { hero, about } = homepage;
 
   return (
     <>
       <HeroSection hero={hero} lang={lang} />
-      <NewsSection lang={lang} isHomePage />
+      <NewsSection lang={lang} isHomePage news={news} />
       <AboutSection about={about} />
     </>
   );
