@@ -27,7 +27,7 @@ export const Logo: React.FC<LogoProps> = ({
   return (
     <Link
       href={`/${lang}`}
-      className={`common-transition block max-w-max text-black-light hover:text-red focus:text-red ${className} ${logoTextStyles}`}
+      className={`common-transition z-2 relative block max-w-max text-black-light hover:text-red focus:text-red ${className} ${logoTextStyles}`}
     >
       <span className={`uppercase ${position !== 'header' && 'hidden'}`}>
         {logoLeftText}

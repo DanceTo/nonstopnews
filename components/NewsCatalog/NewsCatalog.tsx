@@ -35,7 +35,10 @@ const NewsCatalog: FC<NewsCatalogProps> = ({ news }) => {
   return (
     <div className="space-y-6">
       {/* Велика перша новина */}
-      <Link href={`/news/${latest.slug}`} className="group block pt-6">
+      <Link
+        href={`/news/${latest.slug}`}
+        className="group  mx-auto block w-[84%] overflow-hidden  pt-6"
+      >
         <div className="relative h-64 w-full overflow-hidden rounded-xl md:h-96">
           <Image
             src={latest.image}
@@ -54,12 +57,12 @@ const NewsCatalog: FC<NewsCatalogProps> = ({ news }) => {
       </Link>
 
       {/* Інші новини */}
-      <div className="mt-6 space-y-6">
+      <div className=" xl:flex xl:flex-wrap xl:gap-4">
         {others.map(item => (
           <Link
             key={item.slug}
             href={`/news/${item.slug}`}
-            className="group flex flex-col gap-4 rounded-lg p-2 transition-colors duration-300 hover:bg-zinc-100 focus:bg-zinc-100 md:flex-row"
+            className="group flex flex-col gap-4 rounded-lg p-2 transition-colors duration-300 hover:bg-zinc-100 focus:bg-zinc-100 md:flex-row xl:basis-[calc((100%-(16px*1))/2)]"
           >
             <div className="relative aspect-[3/2] w-full flex-shrink-0 overflow-hidden rounded-lg md:w-60">
               <Image

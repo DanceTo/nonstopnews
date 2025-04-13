@@ -1,5 +1,6 @@
 import type { Locale } from '@/i18n.config';
 import { getDictionary } from '@/lib/dictionary';
+import NewsArticlePage from '@/components/NewsArticlePage/NewsArticlePage';
 
 export type NewsPageProps = {
   params: Promise<{
@@ -16,7 +17,13 @@ export default async function NewsPage({ params }: NewsPageProps) {
 
   return (
     <section className={`section pb-[48px] pt-0 xl:pb-[100px] `}>
-      <div className="container h-[200px]">{msg?.longText}</div>
+      <NewsArticlePage
+        title={msg!.title}
+        image={msg!.image}
+        category={msg!.category}
+        date={msg!.date}
+        content={msg!.longText}
+      />
     </section>
   );
 }

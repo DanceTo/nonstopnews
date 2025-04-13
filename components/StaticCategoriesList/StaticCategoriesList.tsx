@@ -15,8 +15,8 @@ export const StaticCategoriesList: React.FC<StaticCategoriesListProps> = ({
 }) => {
   const [filter, setFilter] = useState('');
   const filterdNews = filter
-    ? news.filter(n => n.category === filter)
-    : news.slice(-5);
+    ? news.filter(n => n.category === filter).slice(0, 5)
+    : news.slice(0, 5);
 
   const listClasses = classNames('flex flex-wrap gap-4 xl:gap-2', className);
 
@@ -43,6 +43,8 @@ export const StaticCategoriesList: React.FC<StaticCategoriesListProps> = ({
                 onClick={() => {
                   if (category.filter !== filter) setFilter(category.filter);
                   else setFilter('');
+
+                  console.log('filterdNews', filterdNews);
                 }}
               >
                 <StaticCategoryCard
