@@ -1,7 +1,8 @@
 import { ReactNode } from 'react';
 import { Montserrat, Raleway } from 'next/font/google';
+import { Metadata } from 'next';
 
-import { getDictionary } from '@/lib/dictionary';
+import { getDictionary, getMetadata } from '@/lib/dictionary';
 import type { Locale } from '@/i18n.config';
 
 import { Header } from '@/layout/Header';
@@ -31,6 +32,43 @@ export type LayoutProps = {
 export async function generateStaticParams() {
   return [{ lang: 'uk' }, { lang: 'ru' }];
 }
+
+// export async function generateMetadata(
+//   props: Promise<{ params: { lang: Locale } }>,
+// ): Promise<Metadata> {
+//   const { params } = await props;
+//   const { lang } = await params;
+
+//   const baseUrl = process.env.NEXT_PUBLIC_BASE_URL;
+
+//   if (!baseUrl || !baseUrl.startsWith('http')) {
+//     throw new Error(
+//       'Environment variable NEXT_PUBLIC_BASE_URL is missing or invalid. It must start with http:// or https://',
+//     );
+//   }
+
+//   const { meta, metadataHome } = await getMetadata(lang);
+//   const { twitter, openGraph, icons, languages, manifest } = meta;
+//   const { title, description, keywords } = metadataHome;
+
+//   return {
+//     title,
+//     description,
+//     metadataBase: new URL(baseUrl),
+//     manifest,
+//     alternates: {
+//       canonical: `${baseUrl}/${lang}`,
+//       languages,
+//     },
+//     keywords,
+//     twitter,
+//     openGraph: {
+//       ...openGraph,
+//       url: `${baseUrl}/${lang}`,
+//     },
+//     icons,
+//   };
+// }
 
 export default async function Layout({ children, params }: LayoutProps) {
   const { lang } = await params;

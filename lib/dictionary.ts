@@ -27,7 +27,7 @@ const dictionaries = {
 const metadata = {
   ru: async () => ({
     ...(await import(`@/dictionaries/ru/meta/common.json`)).default,
-    // ...(await import(`@/dictionaries/en/meta/home.json`)).default,
+    ...(await import(`@/dictionaries/ru/meta/home.json`)).default,
     // ...(await import(`@/dictionaries/en/meta/business.json`)).default,
     // ...(await import(`@/dictionaries/en/meta/category.json`)).default,
     // ...(await import(`@/dictionaries/en/meta/product.json`)).default,
@@ -35,7 +35,7 @@ const metadata = {
 
   uk: async () => ({
     ...(await import(`@/dictionaries/uk/meta/common.json`)).default,
-    // ...(await import(`@/dictionaries/uk/meta/home.json`)).default,
+    ...(await import(`@/dictionaries/uk/meta/home.json`)).default,
     // ...(await import(`@/dictionaries/uk/meta/business.json`)).default,
     // ...(await import(`@/dictionaries/uk/meta/category.json`)).default,
     // ...(await import(`@/dictionaries/uk/meta/product.json`)).default,
