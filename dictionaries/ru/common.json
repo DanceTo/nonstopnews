@@ -23,10 +23,10 @@
         "name": "На Главную",
         "href": "/"
       },
-      "logoLeftText": "left",
-      "logoRightText": "bank",
-      "forTraitorBtnText": "Предатели",
-      "languageButtonText": "UA"
+      "logoLeftText": "NONStop",
+      "logoRightText": "News",
+      "forTraitorBtnText": "Наши статьи",
+      "languageButtonText": "UK"
     },
     "footer": {
       "logoAriaLabelText": "Ссылка с логотипом",
@@ -34,12 +34,12 @@
         {
           "href": "tel:38095555555",
           "icon": "phone",
-          "text": "38 (095) 555 55 55"
+          "text": "+79 123 555 55 55"
         },
         {
           "href": "mailto:lbnews@gmail.com",
           "icon": "email",
-          "text": "lbnews@gmail.com"
+          "text": "nonstopnews@mail.ru"
         }
       ],
       "nav_text": "Навигация",
@@ -49,11 +49,11 @@
           "href": "news"
         },
         {
-          "name": "Про нас",
+          "name": "О нас",
           "href": "about"
         }
       ],
-      "forTraitorBtnText": "Предатели",
+      "forTraitorBtnText": "Наши статьи",
       "social_text": "Социальные сети",
       "social": [
         {
@@ -81,41 +81,41 @@
     "catalog": {
       "home_title": "Новости",
       "product_title": "Читать новости",
-      "subtitle": "Выберите регион, который Вас интересует",
+      "subtitle": "Выберите рубрику, которая Вас интересует",
       "categories": [
         {
           "id": "1",
-          "title": "Херсон",
+          "title": "Экономика",
           "url": "/images/catalog_news/kherson.jpeg",
-          "image_description": "Херсон",
+          "image_description": "Экономика",
           "filter": "kherson"
         },
         {
           "id": "2",
-          "title": "Запорожье",
+          "title": "Политика",
           "url": "/images/catalog_news/kherson.jpeg",
-          "image_description": "Запорожье",
+          "image_description": "Политика",
           "filter": "zaporizhzhya"
         },
         {
           "id": "3",
-          "title": "АР Крым",
+          "title": "СВО",
           "url": "/images/catalog_news/kherson.jpeg",
-          "image_description": "АР Крым",
+          "image_description": "СВО",
           "filter": "crimea"
         },
         {
           "id": "4",
-          "title": "Донецк",
+          "title": "Новости мира",
           "url": "/images/catalog_news/donetsk.jpeg",
-          "image_description": "Донецк",
+          "image_description": "Новости мира",
           "filter": "donetsk"
         },
         {
           "id": "5",
-          "title": "Луганск",
+          "title": "Спорт",
           "url": "/images/catalog_news/luhansk.jpeg",
-          "image_description": "Луганск",
+          "image_description": "Спорт",
           "filter": "luhansk"
         }
       ],
