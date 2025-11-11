@@ -48,7 +48,7 @@
     "about": {
       "title": "О нас",
       "image": {
-        "src": "/images/homepage/about/about@2x.webp",
+        "src": "/images/homepage/about/about.jpeg",
         "alt": "О нас фото"
       },
       "content": [

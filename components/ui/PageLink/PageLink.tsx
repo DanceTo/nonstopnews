@@ -22,7 +22,7 @@ export const PageLink: React.FC<PageLinkProps> = ({
       className={linkClasses}
       onClick={onClick}
     >
-      <span className="link">{text}</span>
+      <span className="link font-bold">{text}</span>
     </Link>
   );
 };

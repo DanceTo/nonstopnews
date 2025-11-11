@@ -54,7 +54,7 @@ const config: Config = {
         white: '#ffffff',
         gray: '#c5c5c5',
         'gray-light': '#ebebeb',
-        red: '#ae1309',
+        red: '#017dc5',
         'red-light': '#FF5353',
         gold: '#FFC253',
         red2: '#c40c00',

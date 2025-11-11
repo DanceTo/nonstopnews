@@ -28,7 +28,7 @@ export const StaticCategoryCard: React.FC<StaticCategoryCardProps> = ({
         />
       </div>
 
-      <p className="text-center font-medium">{title}</p>
+      <p className="text-center font-bold">{title}</p>
     </>
   );
 };
