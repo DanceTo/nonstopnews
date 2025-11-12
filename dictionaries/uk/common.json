@@ -2,34 +2,34 @@
   "common": {
     "header": {
       "sidePanelMenu": {
-        "openPanelBtnAriaText": "Кнопка відкриття бічної панелі",
-        "closePanelBtnAriaText": "Кнопка закриття бічної панелі"
+        "openPanelBtnAriaText": "Open side panel",
+        "closePanelBtnAriaText": "Close side panel"
       },
       "mobileMenu": {
-        "openMenuBtnAriaText": "Кнопка відкриття мобільного меню",
-        "closeMenuBtnAriaText": "Кнопка закриття мобільного меню"
+        "openMenuBtnAriaText": "Open mobile menu",
+        "closeMenuBtnAriaText": "Close mobile menu"
       },
       "nav": [
         {
-          "name": "Новини",
+          "name": "News",
           "href": "news"
         },
         {
-          "name": "Про Нас",
+          "name": "About us",
           "href": "about"
         }
       ],
       "toHomePage": {
-        "name": "На Головну",
+        "name": "Homepage",
         "href": "/"
       },
       "logoLeftText": "left",
       "logoRightText": "bank",
-      "forTraitorBtnText": "Зрадники",
+      "forTraitorBtnText": "Our articles",
       "languageButtonText": "RU"
     },
     "footer": {
-      "logoAriaLabelText": "Посилання із логотипом компанії",
+      "logoAriaLabelText": "Company logo",
       "contacts": [
         {
           "href": "tel:38095555555",
@@ -39,22 +39,22 @@
         {
           "href": "mailto:lbnews@gmail.com",
           "icon": "email",
-          "text": "lbnews@gmail.com"
+          "text": "nonstopnews@gmail.com"
         }
       ],
-      "nav_text": "Навігація",
+      "nav_text": "Navigation",
       "nav": [
         {
-          "name": "Новини",
+          "name": "News",
           "href": "news"
         },
         {
-          "name": "Про нас",
+          "name": "About us",
           "href": "about"
         }
       ],
-      "forTraitorBtnText": "Зрадники",
-      "social_text": "Соціальні мережі",
+      "forTraitorBtnText": "Our articles",
+      "social_text": "Socials",
       "social": [
         {
           "href": "https://",
@@ -79,43 +79,43 @@
       ]
     },
     "catalog": {
-      "home_title": "Новини",
-      "product_title": "Переглянути новини",
-      "subtitle": "Оберіть регіон, який Вас цікавить",
+      "home_title": "News",
+      "product_title": "News",
+      "subtitle": "Choose filter",
       "categories": [
         {
           "id": "1",
-          "title": "Херсон",
+          "title": "Economy",
           "url": "/images/catalog_news/kherson.jpeg",
-          "image_description": "Херсон",
+          "image_description": "Economy",
           "filter": "kherson"
         },
         {
           "id": "2",
-          "title": "Запоріжжя",
+          "title": "Policy",
           "url": "/images/catalog_news/kherson.jpeg",
-          "image_description": "Запоріжжя",
+          "image_description": "Policy",
           "filter": "zaporizhzhya"
         },
         {
           "id": "3",
-          "title": "Крим",
+          "title": "Special Military Operation",
           "url": "/images/catalog_news/kherson.jpeg",
-          "image_description": "Крим",
+          "image_description": "Special Military Operation",
           "filter": "crimea"
         },
         {
           "id": "4",
-          "title": "Донецьк",
+          "title": "World news",
           "url": "/images/catalog_news/donetsk.jpeg",
-          "image_description": "Донецьк",
+          "image_description": "World news",
           "filter": "donetsk"
         },
         {
           "id": "5",
-          "title": "Луганськ",
+          "title": "Sport",
           "url": "/images/catalog_news/luhansk.jpeg",
-          "image_description": "Луганськ",
+          "image_description": "Sport",
           "filter": "luhansk"
         }
       ],

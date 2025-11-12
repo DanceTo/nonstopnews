@@ -26,7 +26,7 @@
       "logoLeftText": "NONStop",
       "logoRightText": "News",
       "forTraitorBtnText": "Наши статьи",
-      "languageButtonText": "UK"
+      "languageButtonText": "EN"
     },
     "footer": {
       "logoAriaLabelText": "Ссылка с логотипом",
@@ -106,9 +106,9 @@
         },
         {
           "id": "4",
-          "title": "Новости мира",
+          "title": "Мировые новости",
           "url": "/images/catalog_news/donetsk.jpeg",
-          "image_description": "Новости мира",
+          "image_description": "Мировые новости",
           "filter": "donetsk"
         },
         {
@@ -120,8 +120,8 @@
         }
       ],
       "serviceError": {
-        "subtitle": "Сервис временно недоступен",
-        "tip": "Пожалуйста, попробуйте позже"
+        "subtitle": "Service temporary unaviliable",
+        "tip": "Please try again later"
       }
     }
   }
