@@ -47,7 +47,7 @@ export const MobileMenu: React.FC<MobileMenuProps> = ({
         btnAriaOpen={btnAriaOpen}
         isOpen={isOpen}
         onClick={() => setOpen(prev => !prev)}
-        className=" md:hidden"
+        className="mt-5 md:hidden"
       />
 
       <CSSTransition

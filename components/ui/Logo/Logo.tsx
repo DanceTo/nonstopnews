@@ -16,8 +16,8 @@ export const Logo: React.FC<LogoProps> = ({
 }) => {
   const lang = useParams().lang as Locale;
   const logoSvgStyles = classNames('h-[48px] w-[48px] mb-0', {
-    'xl:w-[80px] xl:h-[80px] mb-[-20px]': position === 'header',
-    'md:w-[80px] md:h-[80px]': position === 'footer' || 'contacts',
+    'xl:w-[80px] xl:h-[80px] xl:mb-[-20px]': position === 'header',
+    'md:w-[80px] md:h-[80px] md:mb-4': position === 'footer' || 'contacts',
   });
   const logoTextStyles = classNames({
     'container mb-4 flex max-w-fit items-center justify-center font-bold text-red2 xl:text-5xl':

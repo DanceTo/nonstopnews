@@ -36,7 +36,7 @@ export const Footer: React.FC<FooterProps> = ({
             />
           </div>
           {isHomePage && <FooterNavRow data={restProps} />}
-          <Information information={information} />
+          {/* <Information information={information} /> */}
           <div>
             <SocialsMenu socials={social} title={social_text} />
           </div>
