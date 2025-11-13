@@ -12,7 +12,7 @@ export const Banner: React.FC<BannerProps> = ({
 }) => (
   <div>
     <Image
-      className="h-[50vw] h-full w-full w-full object-cover object-center sm:h-[240px] md:h-[384px] xl:mx-auto xl:h-[450px] xl:w-[1220px] xl:rounded-[100px]"
+      className="h-[50vw] h-full w-full w-full object-cover object-center sm:h-[240px] md:h-[384px] xl:mx-auto xl:h-[600px] xl:w-[1220px] xl:rounded-[100px]"
       style={{
         maskImage:
           'radial-gradient(circle at center, rgb(204, 23, 23) 70%, rgba(193, 11, 11, 0) 94%)',
