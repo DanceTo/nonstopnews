@@ -7,7 +7,7 @@ import type { Locale } from '@/i18n.config';
 
 export type HomeProps = {
   params: Promise<{
-    lang: Locale; // 'uk' | 'ru'
+    lang: Locale; // 'en' | 'ru'
   }>;
 };
 

@@ -25,12 +25,12 @@ const raleway = Raleway({
 export type LayoutProps = {
   children: ReactNode;
   params: Promise<{
-    lang: Locale; // 'uk' | 'ru'
+    lang: Locale; // 'en' | 'ru'
   }>;
 };
 
 export async function generateStaticParams() {
-  return [{ lang: 'uk' }, { lang: 'ru' }];
+  return [{ lang: 'en' }, { lang: 'ru' }];
 }
 
 // export async function generateMetadata(

@@ -2,7 +2,7 @@ import type { Locale } from '@/i18n.config';
 
 export type NewsPageProps = {
   params: Promise<{
-    lang: Locale; // 'uk' | 'ru'
+    lang: Locale; // 'en' | 'ru'
   }>;
 };
 

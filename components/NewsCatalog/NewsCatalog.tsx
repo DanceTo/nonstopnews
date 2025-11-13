@@ -44,7 +44,7 @@ const NewsCatalog: FC<NewsCatalogProps> = ({ news }) => {
             src={latest.image}
             alt={latest.title}
             fill
-            className="object-cover transition-transform duration-300 group-hover:scale-105"
+            className="object-contain transition-transform duration-300 group-hover:scale-105"
           />
         </div>
         <div className="mt-3 flex items-center gap-2 text-sm text-zinc-500">

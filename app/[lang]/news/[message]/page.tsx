@@ -4,7 +4,7 @@ import NewsArticlePage from '@/components/NewsArticlePage/NewsArticlePage';
 
 export type NewsPageProps = {
   params: Promise<{
-    lang: Locale; // 'uk' | 'ru'
+    lang: Locale; // 'en' | 'ru'
     message: string;
   }>;
 };

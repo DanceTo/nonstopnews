@@ -6,7 +6,7 @@ import classNames from 'classnames';
 
 export type TraitorsPageProps = {
   params: Promise<{
-    lang: Locale; // 'uk' | 'ru'
+    lang: Locale; // 'en' | 'ru'
   }>;
 };
 

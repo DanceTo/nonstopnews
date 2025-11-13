@@ -12,15 +12,15 @@ const dictionaries = {
     // ...(await import(`@/dictionaries/en/product_page.json`)).default,
   }),
 
-  uk: async () => ({
-    ...(await import(`@/dictionaries/uk/common.json`)).default,
-    ...(await import(`@/dictionaries/uk/information.json`)).default,
-    ...(await import(`@/dictionaries/uk/home_page.json`)).default,
-    ...(await import(`@/dictionaries/uk/news.json`)).default,
-    ...(await import(`@/dictionaries/uk/traitors.json`)).default,
-    // ...(await import(`@/dictionaries/uk/business_page.json`)).default,
-    // ...(await import(`@/dictionaries/uk/category_page.json`)).default,
-    // ...(await import(`@/dictionaries/uk/product_page.json`)).default,
+  en: async () => ({
+    ...(await import(`@/dictionaries/en/common.json`)).default,
+    ...(await import(`@/dictionaries/en/information.json`)).default,
+    ...(await import(`@/dictionaries/en/home_page.json`)).default,
+    ...(await import(`@/dictionaries/en/news.json`)).default,
+    ...(await import(`@/dictionaries/en/traitors.json`)).default,
+    // ...(await import(`@/dictionaries/en/business_page.json`)).default,
+    // ...(await import(`@/dictionaries/en/category_page.json`)).default,
+    // ...(await import(`@/dictionaries/en/product_page.json`)).default,
   }),
 };
 
@@ -33,18 +33,18 @@ const metadata = {
     // ...(await import(`@/dictionaries/en/meta/product.json`)).default,
   }),
 
-  uk: async () => ({
-    ...(await import(`@/dictionaries/uk/meta/common.json`)).default,
-    ...(await import(`@/dictionaries/uk/meta/home.json`)).default,
-    // ...(await import(`@/dictionaries/uk/meta/business.json`)).default,
-    // ...(await import(`@/dictionaries/uk/meta/category.json`)).default,
-    // ...(await import(`@/dictionaries/uk/meta/product.json`)).default,
+  en: async () => ({
+    ...(await import(`@/dictionaries/en/meta/common.json`)).default,
+    ...(await import(`@/dictionaries/en/meta/home.json`)).default,
+    // ...(await import(`@/dictionaries/en/meta/business.json`)).default,
+    // ...(await import(`@/dictionaries/en/meta/category.json`)).default,
+    // ...(await import(`@/dictionaries/en/meta/product.json`)).default,
   }),
 };
 
 const commonDictionaries = {
   ru: async () => (await import(`@/dictionaries/ru/common.json`)).default,
-  uk: async () => (await import(`@/dictionaries/uk/common.json`)).default,
+  en: async () => (await import(`@/dictionaries/en/common.json`)).default,
 };
 
 export const getDictionary = async (lang: Locale) => dictionaries[lang]();

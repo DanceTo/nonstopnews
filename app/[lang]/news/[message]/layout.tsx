@@ -3,7 +3,7 @@ import { Locale } from '@/i18n.config';
 export default async function NestedCategoryLayout(props: {
   children: React.ReactNode;
   params: Promise<{
-    lang: Locale; // 'uk' | 'ru'
+    lang: Locale; // 'en' | 'ru'
   }>;
 }) {
   return <>{props.children}</>;
@@ -12,12 +12,12 @@ export default async function NestedCategoryLayout(props: {
 // export type LayoutProps = {
 //   children: ReactNode;
 //   params: Promise<{
-//     lang: Locale; // 'uk' | 'ru'
+//     lang: Locale; // 'en' | 'ru'
 //   }>;
 // };
 
 // export async function generateStaticParams() {
-//   return [{ lang: 'uk' }, { lang: 'ru' }];
+//   return [{ lang: 'en' }, { lang: 'ru' }];
 // }
 
 // export default async function Layout({ children, params }: LayoutProps) {

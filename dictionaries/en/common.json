@@ -88,7 +88,7 @@
           "title": "Economy",
           "url": "/images/catalog_news/kherson.jpeg",
           "image_description": "Economy",
-          "filter": "kherson"
+          "filter": "policy"
         },
         {
           "id": "2",
@@ -113,10 +113,10 @@
         },
         {
           "id": "5",
-          "title": "Sport",
+          "title": "Social",
           "url": "/images/catalog_news/luhansk.jpeg",
           "image_description": "Sport",
-          "filter": "luhansk"
+          "filter": "social"
         }
       ],
       "serviceError": {

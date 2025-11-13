@@ -16,7 +16,7 @@ export const SideMenu: React.FC<SideMenuProps> = ({
   const [isOpen, setOpen] = useState(false);
   const nodeRef = useRef(null);
   const path = usePathname();
-  const homePage = path === '/ru' || path === '/uk';
+  const homePage = path === '/ru' || path === '/en';
 
   return (
     <div className={` flex items-center smOnly:hidden ${className}`}>
