@@ -101,8 +101,8 @@
           "id": "3",
           "title": "СВО",
           "url": "/images/catalog_news/kherson.jpeg",
-          "image_description": "СВО",
-          "filter": "crimea"
+          "image_description": "Специальная военная операция",
+          "filter": "svo"
         },
         {
           "id": "4",

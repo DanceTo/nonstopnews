@@ -4,17 +4,17 @@
       "hiddenTitle": "Зображення із новинними картинками",
       "banners": [
         {
-          "image_description": "Танк і людина із гранатометом",
+          "image_description": "Military jet",
           "photo": {
             "data": {
               "attributes": {
-                "url": "/images/homepage/hero/1.jg"
+                "url": "/images/homepage/hero/1.jpg"
               }
             }
           }
         },
         {
-          "image_description": "Прапор України у вигляді серця",
+          "image_description": "President Putin",
           "photo": {
             "data": {
               "attributes": {
@@ -24,7 +24,7 @@
           }
         },
         {
-          "image_description": "Напис новини",
+          "image_description": "Military contracts",
           "photo": {
             "data": {
               "attributes": {
@@ -34,7 +34,7 @@
           }
         },
         {
-          "image_description": "Солдат на фоні прапора України",
+          "image_description": "Russian flag",
           "photo": {
             "data": {
               "attributes": {

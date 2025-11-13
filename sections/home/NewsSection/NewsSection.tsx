@@ -4,7 +4,7 @@ import { StaticCategoriesList } from '@/components/StaticCategoriesList/StaticCa
 import { getCommonDictionaries } from '@/lib/dictionary';
 
 export const NewsSection: React.FC<NewsSectionProps> = async ({
-  className = '',
+  className = 'xl:mt-20',
   isHomePage = false,
   lang,
   news = [],

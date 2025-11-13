@@ -4,7 +4,7 @@
       "hiddenTitle": "Изображения с новостными баннерами",
       "banners": [
         {
-          "image_description": "Танк и человек с гранатометом",
+          "image_description": "Военный самолёт",
           "photo": {
             "data": {
               "attributes": {
@@ -14,7 +14,7 @@
           }
         },
         {
-          "image_description": "Флаг Украины в виде сердца",
+          "image_description": "Президент Путин",
           "photo": {
             "data": {
               "attributes": {
@@ -24,7 +24,7 @@
           }
         },
         {
-          "image_description": "Надпись новости",
+          "image_description": "Военные контракты",
           "photo": {
             "data": {
               "attributes": {
@@ -34,7 +34,7 @@
           }
         },
         {
-          "image_description": "Солдат на фоне флага Украины",
+          "image_description": "Российский флаг",
           "photo": {
             "data": {
               "attributes": {
