@@ -59,7 +59,7 @@ export const MobileMenu: React.FC<MobileMenuProps> = ({
       >
         <div
           ref={nodeRef}
-          className=" fixed bottom-0 left-0 right-0 top-[82px] z-10 overflow-auto bg-body md:hidden"
+          className=" fixed bottom-0 left-0 right-0 top-[120px] z-10 overflow-auto bg-body md:hidden"
         >
           <div className="container grid gap-9 py-7 text-center text-lg">
             <TranslationSwitcher
