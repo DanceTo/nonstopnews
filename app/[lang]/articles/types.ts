@@ -1,7 +1,7 @@
 import { Locale } from '@/i18n.config';
 import { Image } from '@/types/commons';
 
-export interface TraitorCardProps {
+export interface ArticleCardProps {
   traitor: CategoryDynamicDataInfo;
   lang?: Locale;
   className?: string;

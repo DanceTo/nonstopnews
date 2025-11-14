@@ -1,5 +1,5 @@
 import { getDictionary, getMetadata } from '@/lib/dictionary';
-import { TRAITORS } from '@/data';
+import { ARTICLES } from '@/data';
 import type { Locale } from '@/i18n.config';
 import { PersonCard } from '@/components/PersonCard';
 import classNames from 'classnames';
@@ -13,7 +13,7 @@ export type TraitorsPageProps = {
 export default async function TraitorsPage({ params }: TraitorsPageProps) {
   const { lang } = await params;
 
-  const { traitors, title } = await getDictionary(lang);
+  const { articles, title } = await getDictionary(lang);
 
   const className = '';
   const listClasses = classNames(
@@ -26,7 +26,7 @@ export default async function TraitorsPage({ params }: TraitorsPageProps) {
       <div className=" container p-4">
         <h3 className="mb-5 p-2 text-center font-bold">{title}</h3>
         <ul className={listClasses}>
-          {traitors.map(t => (
+          {articles.map(t => (
             <li
               key={t.id}
               className="basis-[calc((100%-16px)/2)] md:basis-[calc((100%-(16px*2))/3)] xl:basis-[calc((100%-(25px*2))/4)]"

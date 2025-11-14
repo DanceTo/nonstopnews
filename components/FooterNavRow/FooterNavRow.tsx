@@ -6,7 +6,7 @@ import { checkPageName, smoothScroll } from '@/utils';
 import { FooterNavRowProps } from '@/components/FooterNavRow/types';
 import { PageLink } from '@/components/ui/PageLink';
 import { usePathname } from 'next/navigation';
-import { TRAITORS } from '@/data';
+import { ARTICLES } from '@/data';
 
 export const FooterNavRow: React.FC<FooterNavRowProps> = ({
   data,
@@ -16,7 +16,7 @@ export const FooterNavRow: React.FC<FooterNavRowProps> = ({
   const { nav_text, nav, forTraitorBtnText } = data;
 
   const pathname = usePathname();
-  const isBusinessPage = checkPageName(pathname, TRAITORS);
+  const isBusinessPage = checkPageName(pathname, ARTICLES);
 
   return (
     nav?.length > 0 && (

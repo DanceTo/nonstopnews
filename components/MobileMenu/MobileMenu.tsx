@@ -12,7 +12,7 @@ import { MenuButton } from '../ui/MenuButton';
 import { MobileMenuProps } from './types';
 import { Locale } from '@/i18n.config';
 import { checkPageName } from '@/utils';
-import { TRAITORS, HOME } from '@/data';
+import { ARTICLES, HOME } from '@/data';
 
 export const MobileMenu: React.FC<MobileMenuProps> = ({
   languageButtonText,
@@ -28,7 +28,7 @@ export const MobileMenu: React.FC<MobileMenuProps> = ({
   const pathname = usePathname();
   const lang = useParams().lang as Locale;
   const isHomePage = checkPageName(pathname, HOME);
-  const isBusinessPage = checkPageName(pathname, TRAITORS);
+  const isBusinessPage = checkPageName(pathname, ARTICLES);
 
   useEffect(() => {
     if (isOpen) {

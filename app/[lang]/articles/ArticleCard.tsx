@@ -5,9 +5,9 @@ import classNames from 'classnames';
 
 import { ModalWindow } from '@/components/ui/ModalWindow';
 
-import { TraitorCardProps } from './types';
+import { ArticleCardProps } from './types';
 
-export const TraitorCard: React.FC<TraitorCardProps> = ({
+export const ArticleCard: React.FC<ArticleCardProps> = ({
   traitor: {
     id,
     attributes: {

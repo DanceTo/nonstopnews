@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import classNames from 'classnames';
 import { PageLinkProps } from './types';
-import { TRAITORS } from '@/data';
+import { ARTICLES } from '@/data';
 import { useParams } from 'next/navigation';
 
 export const PageLink: React.FC<PageLinkProps> = ({
@@ -18,7 +18,7 @@ export const PageLink: React.FC<PageLinkProps> = ({
   const params = useParams();
   return (
     <Link
-      href={isAnchor ? '#' : `/${params.lang}${TRAITORS}`}
+      href={isAnchor ? '#' : `/${params.lang}${ARTICLES}`}
       className={linkClasses}
       onClick={onClick}
     >

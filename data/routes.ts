@@ -1,6 +1,6 @@
 const ROUTES = {
   HOME: '/',
-  TRAITORS: '/traitors',
+  ARTICLES: '/articles',
 };
 
-export const { HOME, TRAITORS } = ROUTES;
+export const { HOME, ARTICLES } = ROUTES;

@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { useParams, usePathname } from 'next/navigation';
 
 import { checkPageName } from '@/utils';
-import { HOME, TRAITORS } from '@/data/routes';
+import { HOME, ARTICLES } from '@/data/routes';
 import { Locale } from '@/i18n.config';
 import { Logo } from '@/components/ui/Logo';
 import { PageLink } from '@/components/ui/PageLink';
@@ -30,7 +30,7 @@ export const Header: React.FC<HeaderProps> = ({ data }) => {
   const pathname = usePathname();
   const lang = useParams().lang as Locale;
   const isHomePage = checkPageName(pathname, HOME);
-  const isTraitorPage = checkPageName(pathname, TRAITORS);
+  const isTraitorPage = checkPageName(pathname, ARTICLES);
   const logoStyles = classNames('mb-[-49px] md:mb-[-40px] xl:mb-[-30px]', {
     // 'mb-[-49px] md:mb-[-40px] xl:mb-[-30px]': isHomePage,
     // 'mb-[-49px] md:mb-[-40px] xl:mb-[-45px]': isTraitorPage,
