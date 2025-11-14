@@ -12,6 +12,7 @@ export type NewsItem = {
   views: number;
   likes: number;
   slug: string;
+  tag: string;
   description?: string;
   longText: string;
 };
@@ -50,7 +51,7 @@ const NewsCatalog: FC<NewsCatalogProps> = ({ news }) => {
         <div className="mt-3 flex items-center gap-2 text-sm text-zinc-500">
           <span>{latest.date}</span>
           <span className="text-red-600">●</span>
-          <span>{latest.slug}</span>
+          <span>{latest.tag}</span>
           <span className="ml-auto">{latest.views} 👁️</span>
         </div>
         <h2 className="mt-1 text-xl font-semibold">{latest.title}</h2>
@@ -79,7 +80,7 @@ const NewsCatalog: FC<NewsCatalogProps> = ({ news }) => {
               <div className="flex items-center gap-2 text-sm text-zinc-500">
                 <span>{item.date}</span>
                 <span className="text-red-600">●</span>
-                <span>{item.slug}</span>
+                <span>{item.tag}</span>
                 <span className="ml-auto">{item.views} 👁️</span>
               </div>
               {item.description && (

@@ -4,7 +4,7 @@
       "hiddenTitle": "Зображення із новинними картинками",
       "banners": [
         {
-          "image_description": "Military jet",
+          "image_description": "Russian flag",
           "photo": {
             "data": {
               "attributes": {
@@ -33,8 +33,9 @@
             }
           }
         },
+
         {
-          "image_description": "Russian flag",
+          "image_description": "Military jet",
           "photo": {
             "data": {
               "attributes": {

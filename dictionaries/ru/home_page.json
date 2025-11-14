@@ -4,7 +4,7 @@
       "hiddenTitle": "Изображения с новостными баннерами",
       "banners": [
         {
-          "image_description": "Военный самолёт",
+          "image_description": "Российский флаг",
           "photo": {
             "data": {
               "attributes": {
@@ -34,7 +34,7 @@
           }
         },
         {
-          "image_description": "Российский флаг",
+          "image_description": "Военный самолёт",
           "photo": {
             "data": {
               "attributes": {

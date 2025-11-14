@@ -52,7 +52,8 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({
       </button>
 
       <ModalWindow onModalClose={onToggleShowModal} showModal={showModal}>
-        <div>Детальна інформація про колаборанта {slug} тут!</div>
+        {/* <div>Детальна інформація про колаборанта {slug} тут!</div> */}
+        <div></div>
       </ModalWindow>
     </>
   );
