@@ -85,37 +85,37 @@
       "categories": [
         {
           "id": "1",
-          "title": "Economy",
-          "url": "/images/catalog_news/kherson.jpeg",
-          "image_description": "Economy",
+          "title": "Policy",
+          "url": "/images/catalog_news/policy.jpeg",
+          "image_description": "Policy",
           "filter": "policy"
         },
         {
           "id": "2",
-          "title": "Policy",
-          "url": "/images/catalog_news/kherson.jpeg",
-          "image_description": "Policy",
-          "filter": "zaporizhzhya"
+          "title": "Economy",
+          "url": "/images/catalog_news/economy.jpeg",
+          "image_description": "Economy",
+          "filter": "economy"
         },
         {
           "id": "3",
           "title": "Special Military Operation",
-          "url": "/images/catalog_news/kherson.jpeg",
+          "url": "/images/catalog_news/svo.jpeg",
           "image_description": "Special Military Operation",
           "filter": "svo"
         },
         {
           "id": "4",
           "title": "World news",
-          "url": "/images/catalog_news/donetsk.jpeg",
+          "url": "/images/catalog_news/world.jpeg",
           "image_description": "World news",
-          "filter": "donetsk"
+          "filter": "world"
         },
         {
           "id": "5",
           "title": "Social",
-          "url": "/images/catalog_news/luhansk.jpeg",
-          "image_description": "Sport",
+          "url": "/images/catalog_news/social.jpeg",
+          "image_description": "Social",
           "filter": "social"
         }
       ],
