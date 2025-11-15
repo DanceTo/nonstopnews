@@ -11,7 +11,7 @@ export type NewsPageProps = {
 
 export default async function NewsPage({ params }: NewsPageProps) {
   const { lang, message } = await params;
-  console.log('lang', lang);
+
   const { news } = await getDictionary(lang);
   const msg = news.find(m => m.slug === message);
 
@@ -20,7 +20,7 @@ export default async function NewsPage({ params }: NewsPageProps) {
       <NewsArticlePage
         title={msg!.title}
         image={msg!.image}
-        category={msg!.tag}
+        category={msg!.category}
         date={msg!.date}
         content={msg!.longText}
       />
