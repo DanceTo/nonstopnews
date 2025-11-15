@@ -66,6 +66,7 @@ interface NewsArticleProps {
   category: string;
   date: string;
   content: string;
+  tag: string;
 }
 
 const NewsArticlePage: FC<NewsArticleProps> = ({

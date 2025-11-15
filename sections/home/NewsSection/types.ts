@@ -5,5 +5,6 @@ export interface NewsSectionProps {
   className?: string;
   isHomePage?: Boolean;
   lang: Locale;
+  tag: string;
   news: NewsItem[];
 }

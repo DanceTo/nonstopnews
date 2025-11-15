@@ -29,7 +29,7 @@ export const Logo: React.FC<LogoProps> = ({
   return (
     <Link
       href={`/${lang}`}
-      className={`common-transition z-2 relative block max-w-max text-black-light hover:text-red focus:text-red ${className} ${logoTextStyles}`}
+      className={`common-transition z-5 relative block max-w-max text-black-light hover:text-red focus:text-red ${className} ${logoTextStyles}`}
     >
       <LogoSvg width={200} height={80} className={logoSvgStyles} />
     </Link>
