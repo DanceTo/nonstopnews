@@ -16,7 +16,7 @@ export const StaticCategoriesList: React.FC<StaticCategoriesListProps> = ({
   const [filter, setFilter] = useState('');
   const filterdNews = filter
     ? news.filter(n => n.category === filter).slice(0, 9)
-    : news.slice(0, 9);
+    : news;
 
   const listClasses = classNames('flex flex-wrap gap-4 xl:gap-2', className);
 

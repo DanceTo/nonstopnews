@@ -10,7 +10,7 @@ export const BannerSlider: React.FC<BannerSliderProps> = ({
   className = '',
 }) => {
   const wrapClasses = classNames(
-    'h-[65vh] sm:h-[280px] md:h-[384px] xl:h-[500px] smOnly:pt-10',
+    'h-[65vh] sm:h-[280px] md:h-[384px] xl:h-[500px] smOnly:pt-10 smOnly:h-[auto]',
     className,
   );
 
