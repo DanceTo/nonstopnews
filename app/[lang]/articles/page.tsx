@@ -1,7 +1,7 @@
 import { getDictionary, getMetadata } from '@/lib/dictionary';
 import { ARTICLES } from '@/data';
 import type { Locale } from '@/i18n.config';
-import { PersonCard } from '@/components/PersonCard';
+import { ArticleCard } from '@/components/ArticleCard';
 import classNames from 'classnames';
 
 export type TraitorsPageProps = {
@@ -31,7 +31,7 @@ export default async function TraitorsPage({ params }: TraitorsPageProps) {
               key={t.id}
               className="basis-[calc((100%-16px)/2)] md:basis-[calc((100%-(16px*2))/3)] xl:basis-[calc((100%-(25px*2))/4)]"
             >
-              <PersonCard traitor={t} lang={lang} />
+              <ArticleCard article={t} lang={lang} />
             </li>
           ))}
         </ul>

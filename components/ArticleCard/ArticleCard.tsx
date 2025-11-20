@@ -3,10 +3,12 @@ import { useState } from 'react';
 import Image from 'next/image';
 import { ModalWindow } from '@/components/ui/ModalWindow';
 import { ModalInfoContent } from '../ModalInfoContent';
-import { PersonCardProps } from './types';
+import { ArticleCardProps } from './types';
 
-export const PersonCard: React.FC<PersonCardProps> = ({ traitor, lang }) => {
-  const { id, title, slug, url, desc, modalInfo } = traitor;
+import { truncateText } from '../NewsCatalog/NewsCatalog';
+
+export const ArticleCard: React.FC<ArticleCardProps> = ({ article, lang }) => {
+  const { id, title, slug, url, desc, modalInfo } = article;
 
   const [showModal, setShowModal] = useState(false);
   const onToggleShowModal = () => setShowModal(prev => !prev);
@@ -17,7 +19,7 @@ export const PersonCard: React.FC<PersonCardProps> = ({ traitor, lang }) => {
         type="button"
         onClick={onToggleShowModal}
         tabIndex={0}
-        className="group relative h-96 w-72 cursor-pointer overflow-hidden rounded-xl border-2 border-[#c40c00] bg-zinc-900 shadow-xl transition-transform duration-300 hover:scale-105 focus:scale-105"
+        className="group relative h-48 w-72 cursor-pointer overflow-hidden rounded-xl border-2 border-[#c40c00] bg-zinc-900 shadow-xl transition-transform duration-300 hover:scale-105 focus:scale-105"
       >
         {/* Снайперський приціл на всю картинку */}
         {/* <div className="pointer-events-none absolute left-0 top-5 z-20 hidden h-3/4 w-full items-center justify-center group-hover:flex"> */}
@@ -44,9 +46,9 @@ export const PersonCard: React.FC<PersonCardProps> = ({ traitor, lang }) => {
         </div>
 
         {/* Ім'я */}
-        <div className="z-2 absolute bottom-0 w-full bg-[#c40c00] bg-opacity-90 py-3 text-center">
-          <h3 className="text-xl font-bold uppercase tracking-wide text-white">
-            {title}
+        <div className="z-2 absolute bottom-0 w-full bg-[#c40c00] bg-opacity-90 py-1 text-center">
+          <h3 className="py-2 text-sm font-bold uppercase tracking-wide text-white">
+            {truncateText(title, 5)}
           </h3>
         </div>
       </button>

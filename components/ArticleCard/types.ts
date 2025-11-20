@@ -1,8 +1,8 @@
 import { Locale } from '@/i18n.config';
 import { ModalInfoProps } from '../ModalInfoContent/types';
 
-export interface PersonCardProps {
-  traitor: {
+export interface ArticleCardProps {
+  article: {
     id: string;
     title: string;
     slug: string;
