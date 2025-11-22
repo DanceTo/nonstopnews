@@ -4,13 +4,13 @@ import type { Locale } from '@/i18n.config';
 import { ArticleCard } from '@/components/ArticleCard';
 import classNames from 'classnames';
 
-export type TraitorsPageProps = {
+export type ArticlessPageProps = {
   params: Promise<{
     lang: Locale; // 'en' | 'ru'
   }>;
 };
 
-export default async function TraitorsPage({ params }: TraitorsPageProps) {
+export default async function TraitorsPage({ params }: ArticlessPageProps) {
   const { lang } = await params;
 
   const { articles, title } = await getDictionary(lang);
@@ -26,12 +26,12 @@ export default async function TraitorsPage({ params }: TraitorsPageProps) {
       <div className=" container p-4">
         <h3 className="mb-5 p-2 text-center font-bold">{title}</h3>
         <ul className={listClasses}>
-          {articles.map(t => (
+          {articles.map(article => (
             <li
-              key={t.id}
+              key={article.id}
               className="basis-[calc((100%-16px)/2)] md:basis-[calc((100%-(16px*2))/3)] xl:basis-[calc((100%-(25px*2))/4)]"
             >
-              <ArticleCard article={t} lang={lang} />
+              <ArticleCard article={article} />
             </li>
           ))}
         </ul>

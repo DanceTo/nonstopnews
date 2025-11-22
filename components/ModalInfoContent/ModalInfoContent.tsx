@@ -4,115 +4,9 @@ import Link from 'next/link';
 
 import { ModalInfoProps } from './types';
 
-// export const ModalInfoContent: React.FC<ModalInfoProps> = ({ modalInfo }) => {
-//   const { title, imageUrl, info, description } = modalInfo;
-// author = { photoUrl, name, socials: { instagram, twitter, telegram } }
-// const author = {
-//   photoUrl: '/authors/ivanov.jpg',
-//   name: 'Иванов Сергей Петрович',
-//   socials: {
-//     instagram: 'https://instagram.com/ivanov',
-//     telegram: 'https://t.me/ivanov',
-//   },
-// };
-
-//   return (
-//     <div className="h-full w-full overflow-auto bg-white p-4 text-zinc-900 md:p-8">
-//       <div className="flex flex-col gap-8 overflow-auto xl:flex-row">
-//         {/* Горизонтальное адаптивное изображение */}
-//         <div className="w-full flex-shrink-0 xl:w-1/2">
-//           <div className="relative aspect-video w-full overflow-hidden rounded-lg border-2 border-[#c40c00] shadow-md">
-//             <Image
-//               src={imageUrl}
-//               alt={title}
-//               fill
-//               className="object-cover object-center"
-//             />
-//           </div>
-//         </div>
-
-//         {/* Текстовый блок */}
-//         <div className="flex w-full flex-col justify-between gap-4 xl:w-1/2">
-//           <div>
-//             <h2 className="text-3xl font-extrabold leading-tight text-[#c40c00] md:text-4xl">
-//               {title}
-//             </h2>
-//             <p className="mb-4 mt-1 text-sm italic text-zinc-600">{info}</p>
-
-//             <div className="text-base leading-relaxed text-zinc-800 md:text-lg">
-//               {description}
-//             </div>
-//           </div>
-
-//           {/* БЛОК АВТОРА */}
-//           <div className="mt-6 flex items-center gap-4 rounded-lg border border-zinc-200 p-4 shadow-sm">
-//             {/* Фото автора */}
-//             <div className="relative h-20 w-20 flex-shrink-0 overflow-hidden rounded-full border border-zinc-300">
-//               <Image
-//                 // src={author.photoUrl}
-//                 src={
-//                   'https://imgv3.fotor.com/images/blog-richtext-image/a-shadow-of-a-boy-carrying-the-camera-with-red-sky-behind.jpg'
-//                 }
-//                 // alt={author.name}
-//                 alt="some photo"
-//                 fill
-//                 className="object-cover object-center"
-//               />
-//             </div>
-
-//             {/* Информация */}
-//             <div className="flex flex-col">
-//               <span className="text-lg font-semibold">{author.name}</span>
-//               <div className="mt-1 flex gap-3 text-sm text-[#c40c00]">
-//                 {author.socials.instagram && (
-//                   <a
-//                     href={author.socials.instagram}
-//                     target="_blank"
-//                     rel="noreferrer"
-//                   >
-//                     Instagram
-//                   </a>
-//                 )}
-//                 {author.socials.twitter && (
-//                   <a
-//                     href={author.socials.twitter}
-//                     target="_blank"
-//                     rel="noreferrer"
-//                   >
-//                     Twitter
-//                   </a>
-//                 )}
-//                 {author.socials.telegram && (
-//                   <a
-//                     href={author.socials.telegram}
-//                     target="_blank"
-//                     rel="noreferrer"
-//                   >
-//                     Telegram
-//                   </a>
-//                 )}
-//               </div>
-//             </div>
-//           </div>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-export const ModalInfoContent: React.FC<ModalInfoProps> = ({ modalInfo }) => {
+export const ModalInfoContent: React.FC<ModalInfoProps> = ({ article }) => {
+  const { author, modalInfo } = article;
   const { title, imageUrl, info, description } = modalInfo;
-
-  const author = {
-    photoUrl:
-      'https://images.unsplash.com/photo-1497316730643-415fac54a2af?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    name: 'Иванов Сергей Петрович',
-    socials: {
-      vk: 'https://vk.com/ivanov',
-      x: 'https://x.com/ivanov',
-      telegram: 'https://t.me/ivanov',
-    },
-  };
 
   return (
     <div className="h-full w-full overflow-auto bg-white p-4 text-zinc-900 md:p-8">
@@ -133,18 +27,12 @@ export const ModalInfoContent: React.FC<ModalInfoProps> = ({ modalInfo }) => {
           <div
             className="
               mt-6 flex flex-row items-center gap-4 rounded-xl border border-zinc-200 
-              bg-zinc-50 p-5 shadow-md
-              transition-all duration-300 
-              hover:-translate-y-1 hover:shadow-lg
-            "
+              bg-zinc-50 p-5 shadow-md"
           >
             {/* Фото автора */}
             <div
               className="
-                relative h-24 w-24 overflow-hidden rounded-full border border-zinc-300 shadow-sm
-                transition-transform duration-300
-                hover:scale-105
-              "
+                relative h-24 w-24 overflow-hidden rounded-full border border-zinc-300 shadow-sm"
             >
               <Image
                 src={author.photoUrl}
@@ -162,8 +50,6 @@ export const ModalInfoContent: React.FC<ModalInfoProps> = ({ modalInfo }) => {
 
               {/* Соцсети */}
               <div className="mt-3 flex justify-center gap-5 text-[#c40c00]">
-                {/* Instagram */}
-
                 {/* VK */}
                 {author.socials.vk && (
                   <Link
@@ -215,13 +101,14 @@ export const ModalInfoContent: React.FC<ModalInfoProps> = ({ modalInfo }) => {
                 )}
 
                 {/* X */}
-                <Link
-                  href={author.socials.x}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="transition-all duration-300 hover:scale-110 hover:opacity-70"
-                >
-                  {author.socials.x && (
+
+                {author.socials.x && (
+                  <Link
+                    href={author.socials.x}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="transition-all duration-300 hover:scale-110 hover:opacity-70"
+                  >
                     <svg
                       viewBox="0 0 122.88 122.88"
                       className="h-6 w-6"
@@ -236,8 +123,8 @@ export const ModalInfoContent: React.FC<ModalInfoProps> = ({ modalInfo }) => {
                         clipRule="evenodd"
                       />
                     </svg>
-                  )}
-                </Link>
+                  </Link>
+                )}
               </div>
             </div>
           </div>

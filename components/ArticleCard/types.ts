@@ -4,6 +4,7 @@ import { ModalInfoProps } from '../ModalInfoContent/types';
 export interface ArticleCardProps {
   article: {
     id: string;
+    lang?: Locale;
     title: string;
     slug: string;
     url: string;
@@ -14,6 +15,14 @@ export interface ArticleCardProps {
       info: string;
       description: string;
     };
+    author: {
+      photoUrl: string;
+      name: string;
+      socials: {
+        vk?: string;
+        x?: string;
+        telegram?: string;
+      };
+    };
   };
-  lang?: Locale;
 }
