@@ -75,6 +75,7 @@ const NewsArticlePage: FC<NewsArticleProps> = ({
   category,
   date,
   content,
+  tag,
 }) => {
   const { slug } = useParams();
 
@@ -102,7 +103,7 @@ const NewsArticlePage: FC<NewsArticleProps> = ({
             <div className="flex items-center gap-3 text-sm text-zinc-500">
               <span>{date}</span>
               <span className="text-[#c40c00]">●</span>
-              <span>{category}</span>
+              <span>{tag}</span>
             </div>
           </div>
 

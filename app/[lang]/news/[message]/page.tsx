@@ -23,6 +23,7 @@ export default async function NewsPage({ params }: NewsPageProps) {
         category={msg!.category}
         date={msg!.date}
         content={msg!.longText}
+        tag={msg!.tag}
       />
     </section>
   );

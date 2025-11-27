@@ -32,14 +32,14 @@
       "logoAriaLabelText": "Company logo",
       "contacts": [
         {
-          "href": "tel:38095555555",
+          "href": "tel:+791235555555",
           "icon": "phone",
-          "text": "38 (095) 555 55 55"
+          "text": "+79 123 555 55 55"
         },
         {
-          "href": "mailto:lbnews@gmail.com",
+          "href": "mailto:nonstopnews@nsn-ru.com",
           "icon": "email",
-          "text": "nonstopnews@gmail.com"
+          "text": "nonstopnews@nsn-ru.com"
         }
       ],
       "nav_text": "Navigation",
