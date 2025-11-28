@@ -1,9 +1,48 @@
 {
   "news": [
     {
+      "title": "Jordan Demands an End to the Recruitment of Its Citizens into the Russian Army",
+      "image": "https://cdn.presstv.ir/Photo/2020/7/25/d567b7c2-c21c-4ada-a0c9-f207b559f294.jpg ",
+      "category": "policy",
+      "date": "28-11-2025",
+      "views": 643,
+      "likes": 534,
+      "slug": "iordaniya-prekratit-verbovku-v-armiyu-rf",
+      "tag": "Policy",
+      "description": "Jordan Demands an End to the Recruitment of Its Citizens into the Russian Army",
+      "longText": "Jordan has sent an official diplomatic request to the Russian Federation demanding the immediate cessation of the practice of recruiting Jordanian citizens into the ranks of the Russian army. Foreign Ministry spokesperson Fouad Al-Majali stated that the ministry will take all necessary measures to halt this process. The sharp diplomatic reaction was prompted by an investigation into the deaths of two Jordanian citizens. According to reports, they had been recruited to participate in hostilities on the side of the Russian Armed Forces and were killed in the conflict. The Ministry of Foreign Affairs and Expatriates of Jordan warned that recruitment campaigns are being conducted primarily through online platforms. The statement emphasized that authorities are monitoring the activities of organizations involved in such practices. The Jordanian Foreign Ministry reported close cooperation with other state institutions to put an end to illegal recruitment. To this end, the full range of available legal and diplomatic mechanisms will be used, including holding those responsible accountable. As of now, Russian officials have not commented on the Jordanian Foreign Ministry’s statement. The situation continues to evolve, and diplomatic dialogue between the two countries is expected to continue as they work to resolve the issue."
+    },
+
+    {
+      "title": "Amid the overall crisis, a sharp decline in production indicators has been reported",
+      "image": "https://rapsinews.ru/images/31138/21/311382151.jpg",
+      "category": "economy",
+      "date": "28-11-2025",
+      "views": 752,
+      "likes": 621,
+      "slug": "milliardnye-potery-iz-za-serogo-vvoza",
+      "tag": "Economy",
+      "description": "Trucks Without Papers: Border Chaos Turns into Billions in Losses",
+      "longText": "President Vladimir Putin stated that Russia is losing billions of rubles due to goods being brought into the country without proper documentation across the border with Kazakhstan. He emphasized that trucks «are simply pouring into Russia’s customs territory,» and as a result, «the Russian Federation is missing out on—without exaggeration—billions, tens of billions of rubles in budget revenue.» Putin also said that traffic jams involving trucks at the Russian-Kazakh border were caused by efforts to combat illegal imports. During a press briefing following his visit to Kyrgyzstan, the president acknowledged that, on his instructions, the customs service—«within the EAEU framework, our customs authorities have the right to do this»—began carrying out selective inspections on the roads. According to him, it turned out that «a significant number of goods,» trucks and lorries «are crossing the Russian-Kazakh border» without any documents, describing it as «simply black-market imports.» The Russian leader agreed that Russia and Kazakhstan share a common customs space, a common market, and free movement of capital and goods, but stressed that every truck must still carry a set of documents agreed upon by both states. This must include documentation of the cargo and, at minimum, clear information about the consignee. It should be immediately clear what customs duties and VAT must be paid when the goods enter Russian territory. "
+    },
+
+    {
+      "title": "Amid the overall crisis, a sharp decline in production indicators has been reported",
+      "image": " https://s09.stc.yc.kpcdn.net/share/i/12/14623947/wr-960.webp",
+      "category": "economy",
+      "date": "25-11-2025",
+      "views": 640,
+      "likes": 421,
+      "slug": "75-protsentov-ugolnyh-kompanii-ubytek",
+      "tag": "Economy",
+      "description": "Against the backdrop of the broader crisis, a sharp decline in production indicators became known yesterday.",
+      "longText": "Almost three-quarters of Russian coal enterprises are operating at a loss. This data was presented by Dmitry Lopatin, Acting Director of the Coal Industry Department of the Ministry of Energy, at a State Council meeting on energy. According to him, 74% of companies in the sector are currently unprofitable, and 23 enterprises have already ceased operations. Lopatin specified that, according to Rosstat, the total losses of the sector have reached 263 billion rubles, and by the end of the year, this figure is expected to rise to 350 billion rubles. «Coal production has been falling for the third consecutive year — from 443.6 million tons in 2022 to 438.6 million tons in 2024, a decline of about 5 million tons,». Earlier, Deputy Minister of Energy Dmitry Islamov stated that in 2024, the sector also ended the year with losses of 112 billion rubles, with accounts payable reaching 1.2 trillion rubles and the share of unprofitable enterprises at 53%. In October, the Ministry of Energy forecasted further growth in debt to 1.5 trillion rubles by the end of 2025. Against the backdrop of the general crisis, a sharp decline in the production indicators of the Mechel holding was reported yesterday. In the third quarter of 2025, the company reduced coal production by 55% year-on-year, down to 1.28 million tons. Over the first nine months, production fell by 38%, reaching the lowest level in the past 10 years. Mechel’s net loss in the first half of the year grew 2.4 times, reaching 40.5 billion rubles — the highest since 2015. To support the industry, the Russian government approved a package of measures on May 30, including postponement of mineral extraction tax (MET) and insurance contributions until December 1, targeted subsidies to compensate logistics costs for coal exports, and the possibility of restructuring debt. According to the National Credit Rating (NKR), the crisis worsened after Vladimir Putin launched the war in Ukraine in 2022, when Russia lost part of its traditional export markets, including the European Union, and global coal prices fell sharply. While in 2022 the export price per ton of thermal coal ranged from $148–192 depending on the port, by the end of 2024 it had fallen to $72–106."
+    },
+
+    {
       "title": " EU’s Possible Responses Against Russia in the Hybrid War",
-      "image": " https://ibb.co/QvwKb3V2",
-      "category": "world news",
+      "image": " https://www.stratfor.com/sites/default/files/styles/16x9_small/public/russia-series-1-display.jpg?itok=pWKP79mE",
+      "category": "world",
       "date": "27-11-2025",
       "views": 846,
       "likes": 790,
@@ -15,7 +54,7 @@
     {
       "title": "Mother of a Child with Disabilities from Arkhangelsk Region Holds a Solo Protest at Manezhnaya Square in Central Moscow",
       "image": " https://pbs.twimg.com/media/G6MOR7uXMAAw7pv.jpg ",
-      "category": "society",
+      "category": "social",
       "date": "20-11-2025",
       "views": 1345,
       "likes": 799,
@@ -28,7 +67,7 @@
     {
       "title": "Every Second One Is in Question: Half of Migrant Children in Sverdlovsk Region Live Illegally",
       "image": "https://avatars.dzeninfra.ru/get-zen_doc/271828/pub_66f6cbcc95b87a0c55436ab9_66f6d3fe687c6e197ad04e06/scale_1200",
-      "category": "society",
+      "category": "social",
       "date": "27-11-2025",
       "views": 875,
       "likes": 633,

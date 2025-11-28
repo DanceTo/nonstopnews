@@ -22,7 +22,7 @@ export default async function NewsPage({ params }: NewsPageProps) {
         image={msg!.image}
         category={msg!.category}
         date={msg!.date}
-        content={msg!.longText}
+        content={msg!.longText || ''}
         tag={msg!.tag}
       />
     </section>
