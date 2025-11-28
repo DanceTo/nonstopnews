@@ -40,15 +40,18 @@ export default async function Layout({ children, params }: LayoutProps) {
   const { header, footer } = common;
 
   return (
-    <html lang={lang}>
-      <body
-        className={`${montserrat.variable} ${raleway.variable} grid min-h-screen grid-cols-1 grid-rows-[1fr_auto] md:grid-rows-[auto_1fr_auto] smOnly:pt-[82px]`}
-      >
-        <Header data={header} />
-        <main>{children}</main>
-        <Footer footer={footer} information={information} />
-        <div id="modal" />
-      </body>
-    </html>
+    <>
+      <html lang={lang}>
+        <meta name="yandex-verification" content="eb48da2ae388e42b" />
+        <body
+          className={`${montserrat.variable} ${raleway.variable} grid min-h-screen grid-cols-1 grid-rows-[1fr_auto] md:grid-rows-[auto_1fr_auto] smOnly:pt-[82px]`}
+        >
+          <Header data={header} />
+          <main>{children}</main>
+          <Footer footer={footer} information={information} />
+          <div id="modal" />
+        </body>
+      </html>
+    </>
   );
 }
