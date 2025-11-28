@@ -46,10 +46,7 @@ export default async function Layout({ children, params }: LayoutProps) {
         <body
           className={`${montserrat.variable} ${raleway.variable} grid min-h-screen grid-cols-1 grid-rows-[1fr_auto] md:grid-rows-[auto_1fr_auto] smOnly:pt-[82px]`}
         >
-          <Header data={header} />
-          <main>{children}</main>
-          <Footer footer={footer} information={information} />
-          <div id="modal" />
+          <div data-verification="eb48da2ae388e42b">eb48da2ae388e42b</div>
         </body>
       </html>
     </>
