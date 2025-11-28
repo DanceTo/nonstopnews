@@ -78,6 +78,10 @@ export default async function Layout({ children, params }: LayoutProps) {
 
   return (
     <html lang={lang}>
+      <head>
+        <meta name="yandex-verification" content="eb48da2ae388e42b" />
+      </head>
+
       <body
         className={`${montserrat.variable} ${raleway.variable} grid min-h-screen grid-cols-1 grid-rows-[1fr_auto] md:grid-rows-[auto_1fr_auto] smOnly:pt-[82px]`}
       >
@@ -89,3 +93,4 @@ export default async function Layout({ children, params }: LayoutProps) {
     </html>
   );
 }
+
