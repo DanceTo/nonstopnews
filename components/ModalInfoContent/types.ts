@@ -6,7 +6,7 @@ export interface ModalInfoProps {
     title: string;
     slug: string;
     url: string;
-    desc: string;
+    desc?: string;
     modalInfo: {
       title: string;
       imageUrl: string;

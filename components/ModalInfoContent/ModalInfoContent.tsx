@@ -4,13 +4,23 @@ import Link from 'next/link';
 
 import { ModalInfoProps } from './types';
 
+export function splitTextBySlash(text: string): string[] {
+  if (!text) return [];
+  return text
+    .split('/')
+    .map(item => item.trim())
+    .filter(item => item.length > 0);
+}
+
 export const ModalInfoContent: React.FC<ModalInfoProps> = ({ article }) => {
   const { author, modalInfo } = article;
   const { title, imageUrl, info, description } = modalInfo;
 
+  const descriptionTExt = splitTextBySlash(description);
+  console.log('arr', descriptionTExt[0]);
   return (
     <div className="h-full w-full overflow-auto bg-white p-4 text-zinc-900 md:p-8">
-      <div className="flex flex-col gap-8 overflow-auto xl:flex-row">
+      <div className="mb-2 flex flex-col gap-8 overflow-auto xl:flex-row">
         {/* ЛЕВАЯ КОЛОНКА */}
         <div className="w-full flex-shrink-0 xl:w-1/2">
           {/* ГЛАВНОЕ ИЗОБРАЖЕНИЕ */}
@@ -38,7 +48,7 @@ export const ModalInfoContent: React.FC<ModalInfoProps> = ({ article }) => {
                 src={author.photoUrl}
                 alt={author.name}
                 fill
-                className="object-cover object-center"
+                className="object-cover object-top "
               />
             </div>
 
@@ -136,10 +146,22 @@ export const ModalInfoContent: React.FC<ModalInfoProps> = ({ article }) => {
             {title}
           </h2>
           <p className="mb-2 text-sm italic text-zinc-600">{info}</p>
-          <div className="text-base leading-relaxed text-zinc-800 md:text-lg">
-            {description}
-          </div>
+          <p className="text-base leading-relaxed text-zinc-800 md:text-lg">
+            {descriptionTExt[0]}
+          </p>
         </div>
+      </div>
+
+      {/* Текст на всю ширину сторінки */}
+      <div>
+        {descriptionTExt.map((item, index) => (
+          <p
+            key={index}
+            className="py-2 text-base leading-relaxed text-zinc-800 md:text-lg"
+          >
+            {item}
+          </p>
+        ))}
       </div>
     </div>
   );
