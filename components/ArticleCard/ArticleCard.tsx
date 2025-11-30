@@ -33,7 +33,7 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({ article }) => {
 
         {/* Ім'я */}
         <div className="z-2 absolute bottom-0 w-full bg-[#c40c00] bg-opacity-90 py-1 text-center">
-          <h3 className="py-2 text-sm font-bold uppercase tracking-wide text-white">
+          <h3 className="py-1 text-sm font-bold uppercase tracking-wide text-white">
             {truncateText(title, 5)}
           </h3>
         </div>

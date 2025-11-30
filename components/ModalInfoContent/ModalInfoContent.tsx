@@ -146,7 +146,7 @@ export const ModalInfoContent: React.FC<ModalInfoProps> = ({ article }) => {
             {title}
           </h2>
           <p className="mb-2 text-sm italic text-zinc-600">{info}</p>
-          <p className="text-base leading-relaxed text-zinc-800 md:text-lg">
+          <p className="text-base text-zinc-800 md:text-lg md:leading-[1.4]">
             {descriptionTExt}
           </p>
         </div>
