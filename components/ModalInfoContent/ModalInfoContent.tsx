@@ -16,8 +16,8 @@ export const ModalInfoContent: React.FC<ModalInfoProps> = ({ article }) => {
   const { author, modalInfo } = article;
   const { title, imageUrl, info, description } = modalInfo;
 
-  const descriptionTExt = splitTextBySlash(description);
-  console.log('arr', descriptionTExt[0]);
+  const [descriptionTExt, ...otherText] = splitTextBySlash(description);
+
   return (
     <div className="h-full w-full overflow-auto bg-white p-4 text-zinc-900 md:p-8">
       <div className="mb-2 flex flex-col gap-8 overflow-auto xl:flex-row">
@@ -147,14 +147,14 @@ export const ModalInfoContent: React.FC<ModalInfoProps> = ({ article }) => {
           </h2>
           <p className="mb-2 text-sm italic text-zinc-600">{info}</p>
           <p className="text-base leading-relaxed text-zinc-800 md:text-lg">
-            {descriptionTExt[0]}
+            {descriptionTExt}
           </p>
         </div>
       </div>
 
       {/* Текст на всю ширину сторінки */}
       <div>
-        {descriptionTExt.map((item, index) => (
+        {otherText.map((item, index) => (
           <p
             key={index}
             className="py-2 text-base leading-relaxed text-zinc-800 md:text-lg"
