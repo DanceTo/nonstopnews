@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 import Link from 'next/link';
+import { useParams } from 'next/navigation';
 
 import { ModalInfoProps } from './types';
 
