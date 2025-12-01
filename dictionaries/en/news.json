@@ -1,6 +1,42 @@
 {
   "news": [
     {
+      "title": "State Duma proposes expanded oversight of regional development funds",
+      "image": "https://all-andorra.com/wp-content/uploads/2022/11/State-Duma-building-in-Moscow-min.png",
+      "category": "policy",
+      "date": "01-12-2025",
+      "views": 733,
+      "likes": 488,
+      "slug": "gosduma-kontrol-fondy-razvitiya",
+      "tag": "Policy",
+      "description": "Lawmakers argue that additional monitoring tools could reduce risks of misuse of regional development funds.",
+      "longText": "The State Duma’s budget committee has proposed strengthening federal oversight over regional development funds, citing “the need for greater transparency.” The initiative follows an internal audit that identified several instances of “uncoordinated spending” in select regions. Regional officials privately warn that the new rules could complicate access to financing and increase their administrative burden. Analysts say the proposal reflects growing tensions between the federal center and regional administrations amid a slowdown in economic activity."
+    },
+    {
+      "title": "Authorities in Zabaykalsky Krai investigate reports of supply disruptions in military unit",
+      "image": "https://www.reuters.com/resizer/v2/P5WTRSJHCFILPNLCVHXJIMOYCA.jpg?auth=0babb4fe593a3511041dec6a19cc5530382f2d8e20e09bbf97aa5cbde06c37f8",
+      "category": "social",
+      "date": "30-11-2025",
+      "views": 812,
+      "likes": 533,
+      "slug": "zabajkale-proverka-snabzheniya-chasti",
+      "tag": "Social",
+      "description": "Local authorities launched an inquiry after servicemen complained about delays in food supplies.",
+      "longText": "The administration of Zabaykalsky Krai has announced an internal review after a video circulated online in which servicemen from a local unit complained about delayed food deliveries. The regional Defence Ministry maintains that “some details in the video are distorted,” but confirmed that logistical difficulties had occurred in November due to harsh weather and strained transport routes. Sources familiar with the situation say that one of the contractors failed to meet the delivery schedule, prompting emergency redistribution of supplies between units."
+    },
+    {
+      "title": "Finance Ministry updates schedule for government bond placement after brief delay",
+      "image": "https://cepa.org/wp-content/uploads/2023/08/2023-08-15T114648Z_5477518_RC2UFU9BEAV9_RTRMADP_3_RUSSIA-ROUBLE-1400x920.jpg",
+      "category": "economy",
+      "date": "30-11-2025",
+      "views": 674,
+      "likes": 421,
+      "slug": "minfin-obyavlenie-razmeshchenie-ofz",
+      "tag": "Economy",
+      "description": "The ministry cited a “technical issue” as the reason for a short postponement in the placement of federal loan bonds.",
+      "longText": "Russia’s Ministry of Finance has published an updated schedule for the placement of government bonds after one of the planned series was postponed due to what officials described as “a minor technical malfunction of the trading platform.” Market participants note that the delay followed weaker demand at a previous auction, though officials insist the change was purely procedural. According to sources in the banking sector, several major investors requested additional time to assess risks related to the growing debt burden of state-owned enterprises. The ministry expects to release a more detailed report by the end of December."
+    },
+    {
       "title": "India Plans to Discuss Purchase of Russian Fighter Jets During Putin’s Visit",
       "image": "https://ic.pics.livejournal.com/bmpd/38024980/7312939/7312939_original.jpg",
       "category": "world",
