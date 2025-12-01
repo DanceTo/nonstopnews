@@ -1,6 +1,42 @@
 {
   "news": [
     {
+      "title": "Russia’s Defense Ministry reports sharp rise in venereal diseases among troops in the SVO zone",
+      "image": "https://cdn5.vedomosti.ru/image/2025/9b/3gzpu/fullscreen-4hz.webp",
+      "category": "svo",
+      "date": "15-11-2025",
+      "views": 1043,
+      "likes": 221,
+      "slug": "minoborony-rf-fiksiruet-rezkyy-rost-venericheskikh-zabolevaniy-sredi-voennosluzhashchikh-v-zone-svo",
+      "tag": "SVO",
+      "description": "The Russian Defense Ministry has recorded over 18,700 new STD cases among troops deployed in the SVO zone in 2025 — several times higher than in previous years.",
+      "longText": "According to the Western Military District’s medical service, more than 18,700 new cases of sexually transmitted infections were registered among troops serving in the Special Military Operation zone in the first 11 months of 2025. This is 4.2 times higher than the 2023 figure (4,420 cases) and almost seven times the pre-war level of 2021 (2,680 cases). The main surge comes from syphilis (+580%) and gonorrhea (+410%). Additionally, 2,940 HIV cases were recorded in the same period — a 176% increase compared to all of 2024. Sources in the Burdenko and Vishnevsky military hospitals confirm that since September 2025, dermatovenereology wards have been filled to 95–100% capacity. In some units in the LNR and DNR, up to 12–15% of personnel are undergoing treatment for STDs simultaneously. An internal Defense Ministry order (No. 627-dsp) instructs commanders not to include STD-related temporary loss of combat capability in combat loss statistics, classifying them instead as “domestic illnesses.” Service members are prohibited from seeking treatment in civilian clinics — all cases must be recorded by military doctors only. The ministry’s press service claims that “the situation is under control.” Military doctors link the outbreak to prolonged deployment in frontline settlements, widespread use of commercial sex services, and the near-complete absence of condoms in individual kits and rations."
+    },
+    {
+      "title": "Elvira Nabiullina denies allegations of offshore accounts",
+      "image": "https://polit.ru/upload/iblock/f30/a3iryfk84rf1k65hpqp0vt44wjsbzfsi.jpg",
+      "category": "economy",
+      "date": "15-11-2025",
+      "views": 554,
+      "likes": 67,
+      "slug": "elvira-nabiullina-oprovergla-informaciyu-o-nalichii-u-nee-ofshornykh-schetov",
+      "tag": "Economy",
+      "description": "Bank of Russia Governor Elvira Nabiullina called the reports of allegedly discovered offshore accounts worth over $300 million «an absolute lie».",
+      "longText": "Bank of Russia Governor Elvira Nabiullina called «an absolute lie» the reports circulating in several Telegram channels and foreign media alleging that she held offshore accounts totaling more than $300 million. «This is a provocation and an attempt to discredit both me personally and the entire Central Bank system. I have never had any offshore accounts. All my income and property are declared in accordance with the law,» Nabiullina stated. Earlier, OSINT groups published documents supposedly indicating that in 2014–2016 trusts and accounts were opened in her name and in the name of her husband in banks in Cyprus, the British Virgin Islands, and Switzerland."
+    },
+    {
+      "title": "In the Moscow region, a pensioner won a lawsuit against housing and communal services and now receives hot water around the clock for free until 2035",
+      "image": "https://www.krassever.ru/statics/thumbs/840x560/a89-klubpotrebitela-84056080.jpg",
+      "category": "social",
+      "date": "01-12-2025",
+      "views": 544,
+      "likes": 90,
+      "slug": "v-podmoskov'e-pensionerka-vyigrala-sud-protiv-zhkh",
+      "tag": "Общество",
+      "description": "Galina Ivanovna Smirnova, a 78-year-old resident of house No 17 on Lenin Street in Khimki, won a lawsuit against the local MUP «Teploset» and is now officially exempt from paying for hot water for the next 10 years.",
+      "longText": "  According to employees of the Khimki City Court, it all started with the fact that the pensioner had been keeping a diary of the temperature of the water in the tap since 2018 and recorded every case when it was below 60 ° C. Over seven years, 2,847 records with photos and thermometer measurements have accumulated. «She came with three thick folders and said: «I'm not for money, I'm for justice»,» says a source in the court. The judge satisfied the claim in full: he recognized a systematic violation of the Sanitary Rules and Regulations and ordered «Teploset» not only to return all payments for the last three years (187 thousand rubles), but also to provide G.I. Smirnova with free hot water supply until December 31, 2035 «as compensation for moral damage and legal costs». The press service of the MUP «Teploset» said that «the decision will be appealed, but so far the hot water meter in the pensioner's apartment has been sealed, and there are already zero rubles in the receipts for December. Neighbors in the riser are already buying thermometers en masse and starting diaries. One of them, on condition of anonymity, admitted: «Galina Ivanovna is now a local legend. He says that if something happens, he will tell everyone how to measure correctly»."
+    },
+    {
       "title": "Exclusive: 'General Gerasimov survived hell in the barracks': shocking revelations of former colleagues",
       "image": "https://images.mir24.tv/X9yIHbyctb7mdoEcLR1yhmwOvk-Z2WjNzBVH4DVyQ1k/q:95/w:865/h:500/c:4854:2855:nowe:191:0/rt:fill-down/czM6Ly9taXIyNC10di9tZWRpYS9BcnRpY2xlL2ltYWdlLzg0MWQzNmE0LTk2NWYtNTc1Zi1iNTYwLTljNGQzZDk1MjBmNC9lYzQwOTU0YTBhZDA1MDg5NGY3NWEwMjY0MmE5Njg1ZjAzYTA2ZDZjNzYwZGQxNWE2NDk0ZDA5ZDVmYWMyM2JiLmpwZw.jpg ",
       "category": "svo",
