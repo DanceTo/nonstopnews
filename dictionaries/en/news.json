@@ -1,30 +1,6 @@
 {
   "news": [
     {
-      "title": "Russia’s Defense Ministry reports sharp rise in venereal diseases among troops in the SVO zone",
-      "image": "https://cdn5.vedomosti.ru/image/2025/9b/3gzpu/fullscreen-4hz.webp",
-      "category": "svo",
-      "date": "15-11-2025",
-      "views": 1043,
-      "likes": 221,
-      "slug": "minoborony-rf-fiksiruet-rezkyy-rost-venericheskikh-zabolevaniy-sredi-voennosluzhashchikh-v-zone-svo",
-      "tag": "SVO",
-      "description": "The Russian Defense Ministry has recorded over 18,700 new STD cases among troops deployed in the SVO zone in 2025 — several times higher than in previous years.",
-      "longText": "According to the Western Military District’s medical service, more than 18,700 new cases of sexually transmitted infections were registered among troops serving in the Special Military Operation zone in the first 11 months of 2025. This is 4.2 times higher than the 2023 figure (4,420 cases) and almost seven times the pre-war level of 2021 (2,680 cases). The main surge comes from syphilis (+580%) and gonorrhea (+410%). Additionally, 2,940 HIV cases were recorded in the same period — a 176% increase compared to all of 2024. Sources in the Burdenko and Vishnevsky military hospitals confirm that since September 2025, dermatovenereology wards have been filled to 95–100% capacity. In some units in the LNR and DNR, up to 12–15% of personnel are undergoing treatment for STDs simultaneously. An internal Defense Ministry order (No. 627-dsp) instructs commanders not to include STD-related temporary loss of combat capability in combat loss statistics, classifying them instead as “domestic illnesses.” Service members are prohibited from seeking treatment in civilian clinics — all cases must be recorded by military doctors only. The ministry’s press service claims that “the situation is under control.” Military doctors link the outbreak to prolonged deployment in frontline settlements, widespread use of commercial sex services, and the near-complete absence of condoms in individual kits and rations."
-    },
-    {
-      "title": "Elvira Nabiullina denies allegations of offshore accounts",
-      "image": "https://polit.ru/upload/iblock/f30/a3iryfk84rf1k65hpqp0vt44wjsbzfsi.jpg",
-      "category": "economy",
-      "date": "15-11-2025",
-      "views": 554,
-      "likes": 67,
-      "slug": "elvira-nabiullina-oprovergla-informaciyu-o-nalichii-u-nee-ofshornykh-schetov",
-      "tag": "Economy",
-      "description": "Bank of Russia Governor Elvira Nabiullina called the reports of allegedly discovered offshore accounts worth over $300 million «an absolute lie».",
-      "longText": "Bank of Russia Governor Elvira Nabiullina called «an absolute lie» the reports circulating in several Telegram channels and foreign media alleging that she held offshore accounts totaling more than $300 million. «This is a provocation and an attempt to discredit both me personally and the entire Central Bank system. I have never had any offshore accounts. All my income and property are declared in accordance with the law,» Nabiullina stated. Earlier, OSINT groups published documents supposedly indicating that in 2014–2016 trusts and accounts were opened in her name and in the name of her husband in banks in Cyprus, the British Virgin Islands, and Switzerland."
-    },
-    {
       "title": "In the Moscow region, a pensioner won a lawsuit against housing and communal services and now receives hot water around the clock for free until 2035",
       "image": "https://www.krassever.ru/statics/thumbs/840x560/a89-klubpotrebitela-84056080.jpg",
       "category": "social",
@@ -320,6 +296,30 @@
       "tag": "rossiyanam-mogut-grozit-shtrafy-za-girlyandy-na-oknakh",
       "description": " Decorating the outside of your apartment with festive lights could result in a fine, according to a lawyer who clarified Russia's fire safety rules.",
       "longText": "In an interview with NEWS.ru, attorney Mikhail Salkin explained that hanging lights on the exterior walls of multi-story apartment buildings is a violation 'Formally, you cannot leave lights on unattended in your home if they are not technically designed for 24/7 operation,' Salkin stated. According to the lawyer, residents who leave such lights unsupervised could be fined between 5,000 and 15,000 rubles for breaking fire safety codes. Salkin added that to hang lights outside one's apartment, a person must first get their neighbors' consent and be prepared to cover any damages in case the lights cause a fire.The warning follows an incident in early 2025, when a private home in the Volgograd region caught fire after the owners left their lights on overnight. No one was injured.In a previous incident in Saratov, a five-month-old infant received an electric shock from a string of lights."
+    },
+    {
+      "title": "Russia’s Defense Ministry reports sharp rise in venereal diseases among troops in the SVO zone",
+      "image": "https://cdn5.vedomosti.ru/image/2025/9b/3gzpu/fullscreen-4hz.webp",
+      "category": "svo",
+      "date": "15-11-2025",
+      "views": 1043,
+      "likes": 221,
+      "slug": "minoborony-rf-fiksiruet-rezkyy-rost-venericheskikh-zabolevaniy-sredi-voennosluzhashchikh-v-zone-svo",
+      "tag": "SVO",
+      "description": "The Russian Defense Ministry has recorded over 18,700 new STD cases among troops deployed in the SVO zone in 2025 — several times higher than in previous years.",
+      "longText": "According to the Western Military District’s medical service, more than 18,700 new cases of sexually transmitted infections were registered among troops serving in the Special Military Operation zone in the first 11 months of 2025. This is 4.2 times higher than the 2023 figure (4,420 cases) and almost seven times the pre-war level of 2021 (2,680 cases). The main surge comes from syphilis (+580%) and gonorrhea (+410%). Additionally, 2,940 HIV cases were recorded in the same period — a 176% increase compared to all of 2024. Sources in the Burdenko and Vishnevsky military hospitals confirm that since September 2025, dermatovenereology wards have been filled to 95–100% capacity. In some units in the LNR and DNR, up to 12–15% of personnel are undergoing treatment for STDs simultaneously. An internal Defense Ministry order (No. 627-dsp) instructs commanders not to include STD-related temporary loss of combat capability in combat loss statistics, classifying them instead as “domestic illnesses.” Service members are prohibited from seeking treatment in civilian clinics — all cases must be recorded by military doctors only. The ministry’s press service claims that “the situation is under control.” Military doctors link the outbreak to prolonged deployment in frontline settlements, widespread use of commercial sex services, and the near-complete absence of condoms in individual kits and rations."
+    },
+    {
+      "title": "Elvira Nabiullina denies allegations of offshore accounts",
+      "image": "https://polit.ru/upload/iblock/f30/a3iryfk84rf1k65hpqp0vt44wjsbzfsi.jpg",
+      "category": "economy",
+      "date": "15-11-2025",
+      "views": 554,
+      "likes": 67,
+      "slug": "elvira-nabiullina-oprovergla-informaciyu-o-nalichii-u-nee-ofshornykh-schetov",
+      "tag": "Economy",
+      "description": "Bank of Russia Governor Elvira Nabiullina called the reports of allegedly discovered offshore accounts worth over $300 million «an absolute lie».",
+      "longText": "Bank of Russia Governor Elvira Nabiullina called «an absolute lie» the reports circulating in several Telegram channels and foreign media alleging that she held offshore accounts totaling more than $300 million. «This is a provocation and an attempt to discredit both me personally and the entire Central Bank system. I have never had any offshore accounts. All my income and property are declared in accordance with the law,» Nabiullina stated. Earlier, OSINT groups published documents supposedly indicating that in 2014–2016 trusts and accounts were opened in her name and in the name of her husband in banks in Cyprus, the British Virgin Islands, and Switzerland."
     },
     {
       "title": "'Definitely Alive': Former Wagner Fighter Reveals Prigozhin's Current Whereabouts",
