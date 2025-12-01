@@ -58,23 +58,19 @@
       "social": [
         {
           "href": "https://",
-          "icon": "instagram",
-          "text": "Instagram"
+          "icon": "x",
+          "text": "Twitter"
         },
         {
           "href": "https://t.me/Non_Stop_Feed",
           "icon": "telegram",
           "text": "Telegram"
         },
+
         {
           "href": "https://",
-          "icon": "tiktok",
-          "text": "Tiktok"
-        },
-        {
-          "href": "https://",
-          "icon": "youtube",
-          "text": "Youtube"
+          "icon": "vk",
+          "text": "Vkontakte"
         }
       ]
     },

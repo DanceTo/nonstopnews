@@ -24,8 +24,8 @@ export default async function NewsPage({ params }: NewsPageProps) {
   const oneArticle = articles.find(m => m.slug === article);
 
   return (
-    <section className={`section container pb-[48px] pt-0 xl:pb-[100px]`}>
-      <article>
+    <section className={`section container pb-[48px] xl:pb-[100px]`}>
+      <article className={`pt-[38px]`}>
         {oneArticle && <ModalInfoContent article={oneArticle} />}
       </article>
     </section>

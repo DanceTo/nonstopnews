@@ -171,19 +171,19 @@ a:focus-visible .link::before,
 
 .phone,
 .email,
-.instagram,
+.x,
 .telegram,
 .tiktok,
-.youtube {
+.vk {
   @apply pl-8;
 }
 
 .phone::before,
 .email::before,
-.instagram::before,
+.x::before,
 .telegram::before,
 .tiktok::before,
-.youtube::before {
+.vk::before {
   @apply h-6 w-6;
 }
 
@@ -201,8 +201,8 @@ a:focus-visible .link::before,
   @apply bg-[url('/icons/icon_phone.svg')];
 }
 
-.instagram::before {
-  @apply bg-[url('/icons/icon_instagram.svg')];
+.x::before {
+  @apply bg-[url('/icons/icon_x.svg')];
 }
 
 .telegram::before {
@@ -213,8 +213,8 @@ a:focus-visible .link::before,
   @apply bg-[url('/icons/icon_tiktok.svg')];
 }
 
-.youtube::before {
-  @apply bg-[url('/icons/icon_youtube.svg')];
+.vk::before {
+  @apply bg-[url('/icons/icon_vk.svg')];
 }
 
 .viber::before {
