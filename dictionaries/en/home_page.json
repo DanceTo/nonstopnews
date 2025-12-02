@@ -47,10 +47,10 @@
       ]
     },
     "about": {
-      "title": "Про нас",
+      "title": "О нас",
       "image": {
         "src": "/images/homepage/about/about.jpeg",
-        "alt": "Про нас фото"
+        "alt": "О нас фото"
       },
       "content": [
         "NonStopNews is a modern news agency focused on the prompt and objective delivery of news. We cover key events in Russia and around the world, placing special emphasis on accuracy, analytical rigor, and transparency of sources. Our editorial team operates according to high professional standards, providing readers with reliable information and well-considered expert commentary.",
