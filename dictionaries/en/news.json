@@ -1,6 +1,45 @@
 {
   "news": [
     {
+      "title": "«Ozon Bank» has started issuing debit cards to foreign nationals",
+      "image": "https://lifehacker.ru/wp-content/uploads/2024/06/cover_ozon_2500x1250_1718618147.png",
+      "category": "economy",
+      "date": "04-12-2025",
+      "views": 879,
+      "likes": 700,
+      "slug": "ozon-bank-debetovye-karty-inostrantsam",
+      "tag": "Economy",
+      "description": "Ozon Bank has started issuing debit cards to foreign nationals residing in Russia from more than 90 countries.",
+      "longText": "Foreign nationals from more than 90 countries can now open a debit card with Ozon Bank. This option is available to citizens of Armenia, Azerbaijan, Belarus, Georgia, Kazakhstan, China, the UAE, Serbia, Turkey, Uzbekistan, and others. To open a card, a passport and documents confirming the right to reside in Russia are required. Card issuance and maintenance are free of charge. In the future, the financial institution plans to expand the number of countries whose citizens can open a card, as well as the range of financial services available to foreign nationals. In September, Maksim Dareshin, head of Ozon Bank’s ATM network, announced plans to increase the ATM network to 1,000 devices by mid-2026. In July, Ozon Bank announced the installation of 12 of its own ATMs in Moscow, Saint Petersburg, and Yekaterinburg. A company representative stated that by the end of 2025, the network will grow to 350 devices. ATMs will also be installed in other Russian cities and will be located at Ozon pick-up points as well as third-party locations."
+    },
+
+    {
+      "title": "Roskomnadzor imposes restrictions on FaceTime",
+      "image": "https://s0.rbk.ru/v6_top_pics/ampresize/media/img/1/17/347648372566171.jpeg",
+      "category": "policy",
+      "date": "04-12-2025",
+      "views": 937,
+      "likes": 712,
+      "slug": "roskomnadzor-ogranicheniya-facetime",
+      "tag": "Policy",
+      "description": "The FaceTime voice and video calling service, designed for Apple device users, has stopped functioning properly in Russia. The reason for the service’s restriction by Roskomnadzor is its widespread use by fraudsters to carry out illegal activities.",
+      "longText": " «According to law enforcement agencies, the FaceTime service is being used to organize and carry out terrorist activities on the territory of the country, to recruit their perpetrators, as well as to commit fraud and other crimes against our citizens,» Roskomnadzor stated. Earlier, reports emerged about the beginning of a gradual blocking of the WhatsApp messenger. According to the agency, the foreign service is used to organize and conduct terrorist activities in the country and other crimes against Russian citizens. In addition, in August of this year, a gradual degradation of call functionality in WhatsApp and Telegram began. Roskomnadzor recommends switching to domestic communication services."
+    },
+
+    {
+      "title": " Almaz-Antey Announces New Capabilities and Features of the S-400 Air Defense System: Uncharacteristic for Conventional Air-Defense Systems",
+      "image": "https://vimpel-v.com/uploads/posts/2023-07/1689080619_s-400.jpg",
+      "category": "svo",
+      "date": "04-12-2025",
+      "views": 1111,
+      "likes": 832,
+      "slug": "almaz-antey-novye-vozmozhnosti-s400",
+      "tag": "Special Military Operation",
+      "description": " The S-400 surface-to-air missile system has acquired new capabilities and features that are not typical for air-defense systems.",
+      "longText": "According to the general director of the Almaz-Antey corporation, Yan Novikov, the S-400 Triumf is one of the most advanced and well-known surface-to-air missile systems in the world. Its range and ability to use different types of missiles make the S-400 one of the most powerful air-defense systems, Novikov stated. «The S-400 Triumf is one of the most modern and most famous surface-to-air missile systems in the world. The S-400’s operational range and its capability to employ different types of missiles make the Triumf a very powerful air-defense system,» he said. Russia’s Defense Ministry has repeatedly reported the successful use of the S-400 system in repelling attacks by the Ukrainian Armed Forces, including interceptions of U.S.-made ATACMS and Storm Shadow missiles. As an NSN source in the Russian defense industry reported in August, the S-400 has demonstrated the highest effectiveness in intercepting Ukrainian missiles. According to the source, since late 2023, the Ukrainian side has been actively attempting to use surface-to-air missile systems against Russian Su-34 and Su-35 aircraft. Over the past year and a half, Russian air-defense crews have intercepted nearly two dozen Western-made surface-to-air guided missiles targeting Russian Aerospace Forces aircraft, about half of them being missiles from the American Patriot system. The S-400 Triumf has also demonstrated its effectiveness abroad. After the April 22 terrorist attack in the tourist town of Pahalgam (in the Indian union territory of Jammu and Kashmir), New Delhi launched Operation Sindur on May 7, striking targets in Pakistan linked to the perpetrators. Military hardware of Russian origin in service with the Indian Armed Forces was used in the operation. Indian Prime Minister Narendra Modi later stated that India’s air-defense system—enhanced, among other things, by the S-400—became a decisive factor in the operation. He subsequently visited the Adampur Air Force Base (Punjab state in northwest India), where he was photographed in front of an S-400 system."
+    },
+
+    {
       "title": "Georgian police may have used World War I–era chemical agents to disperse protests, BBC investigation finds",
       "image": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/2cee/live/13becbe0-cb87-11f0-8c06-f5d460985095.jpg.webp",
       "category": "world",
